@@ -152,7 +152,7 @@ Claro, a continuación, añadiré una explicación sobre decisiones e iteracione
 
 ---
 
-## **Decisiones e Iteraciones**<a name"iteracinoes"></a>
+## **Decisiones e Iteraciones**<a name="iteracinoes"></a>
 
 En la programación, es común tomar decisiones y repetir bloques de código. Para esto, utilizamos estructuras de control como las decisiones (if, switch) y las iteraciones (while, for). Estas estructuras nos permiten controlar el flujo de un programa.
 
