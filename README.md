@@ -12,6 +12,7 @@
 
 
 3.  [Estructura de datos primitivas](#primitivas)
+4. [Decisiones e Iteraciones](#iteracinoes)
 
 ## Introducción
 
@@ -147,4 +148,120 @@ Entender los datos primitivos y cómo se pueden usar para construir estructuras 
 
 ---
 
-Espero que esta explicación sea útil para tu clase de estructuras de datos. ¡Buena suerte!
+Claro, a continuación, añadiré una explicación sobre decisiones e iteraciones, incluyendo ejemplos en pseudocódigo y en lenguajes de programación como Python.
+
+---
+
+## **Decisiones e Iteraciones**<a name"iteracinoes"></a>
+
+En la programación, es común tomar decisiones y repetir bloques de código. Para esto, utilizamos estructuras de control como las decisiones (if, switch) y las iteraciones (while, for). Estas estructuras nos permiten controlar el flujo de un programa.
+
+### **Decisiones**
+
+#### **Condicionales (if-else)**
+
+La estructura condicional `if-else` permite ejecutar un bloque de código si se cumple una condición y otro bloque si no se cumple.
+
+**Pseudocódigo:**
+```
+si (condición) entonces
+    // Código a ejecutar si la condición es verdadera
+sino
+    // Código a ejecutar si la condición es falsa
+fin si
+```
+
+**Ejemplo en Python:**
+```python
+edad = 18
+if edad >= 18:
+    print("Eres mayor de edad")
+else:
+    print("Eres menor de edad")
+```
+
+#### **Condicional múltiple (switch-case)**
+
+La estructura `switch-case` permite seleccionar entre varias alternativas posibles basadas en el valor de una variable.
+
+**Pseudocódigo:**
+```
+según (variable) hacer
+    caso valor1:
+        // Código a ejecutar si variable == valor1
+    caso valor2:
+        // Código a ejecutar si variable == valor2
+    defecto:
+        // Código a ejecutar si ninguna de las condiciones anteriores se cumple
+fin según
+```
+
+**Ejemplo en Python (usando un diccionario para simular switch-case):**
+```python
+def switch_case(dia):
+    dias = {
+        "Lunes": "Inicio de semana",
+        "Martes": "Segundo día de la semana",
+        "Miércoles": "Mitad de semana",
+        "Jueves": "Casi fin de semana",
+        "Viernes": "Último día laboral",
+        "Sábado": "Día de descanso",
+        "Domingo": "Día de descanso"
+    }
+    return dias.get(dia, "Día no válido")
+
+print(switch_case("Lunes"))
+```
+
+### **Iteraciones**
+
+#### **Bucle `while`**
+
+El bucle `while` repite un bloque de código mientras se cumpla una condición.
+
+**Pseudocódigo:**
+```
+mientras (condición) hacer
+    // Código a ejecutar mientras la condición sea verdadera
+fin mientras
+```
+
+**Ejemplo en Python:**
+```python
+contador = 0
+while contador < 5:
+    print("Contador:", contador)
+    contador += 1
+```
+
+#### **Bucle `for`**
+
+El bucle `for` se usa para iterar sobre una secuencia (como una lista, una tupla, un diccionario, un conjunto o una cadena).
+
+**Pseudocódigo:**
+```
+para (inicialización; condición; actualización) hacer
+    // Código a ejecutar en cada iteración
+fin para
+```
+
+**Ejemplo en Python (iterando sobre una lista):**
+```python
+numeros = [1, 2, 3, 4, 5]
+for numero in numeros:
+    print("Número:", numero)
+```
+
+**Ejemplo en Python (usando range para una secuencia de números):**
+```python
+for i in range(5):
+    print("Iteración:", i)
+```
+
+### **Conclusión**
+
+Las estructuras de control como las decisiones e iteraciones son esenciales en la programación para manejar el flujo del programa y repetir acciones de manera eficiente. Las decisiones `if-else` y `switch-case` permiten tomar caminos diferentes basados en condiciones, mientras que los bucles `while` y `for` nos permiten repetir acciones hasta que se cumpla una condición o a lo largo de una secuencia.
+
+---
+
+Espero que esta explicación adicional sobre decisiones e iteraciones sea útil para tu clase de estructuras de datos. ¡Buena suerte!
