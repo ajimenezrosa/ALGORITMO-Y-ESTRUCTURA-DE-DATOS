@@ -276,8 +276,8 @@ Espero que esta explicación adicional sobre decisiones e iteraciones sea útil 
 - C) if-else
 - D) range
 
-<!-- **Respuesta correcta: C) if-else**   -->
-<!-- *Descripción: La estructura condicional if-else permite ejecutar un bloque de código si se cumple una condición y otro bloque si no se cumple.* -->
+**Respuesta correcta: C) if-else**  
+ *Descripción: La estructura condicional if-else permite ejecutar un bloque de código si se cumple una condición y otro bloque si no se cumple.*
 
 #### Pregunta 2
 ¿Cuál es la función principal de un bucle while?
@@ -286,8 +286,8 @@ Espero que esta explicación adicional sobre decisiones e iteraciones sea útil 
 - C) Seleccionar entre varias alternativas posibles basadas en el valor de una variable.
 - D) Iterar sobre una secuencia.
 
-<!-- **Respuesta correcta: B) Ejecutar un bloque de código mientras una condición sea verdadera.**  
-*Descripción: El bucle while repite un bloque de código mientras se cumpla una condición.* -->
+**Respuesta correcta: B) Ejecutar un bloque de código mientras una condición sea verdadera.**  
+*Descripción: El bucle while repite un bloque de código mientras se cumpla una condición.*
 
 #### Pregunta 3
 En el siguiente código, ¿cuál será la salida si la variable edad es 16?
@@ -303,8 +303,8 @@ else:
 - C) Error de sintaxis
 - D) No imprime nada
 
-<!-- **Respuesta correcta: B) Eres menor de edad**  
-*Descripción: Como la variable edad es 16, no se cumple la condición edad >= 18, por lo que se ejecuta el bloque de código dentro de else.* -->
+**Respuesta correcta: B) Eres menor de edad**  
+*Descripción: Como la variable edad es 16, no se cumple la condición edad >= 18, por lo que se ejecuta el bloque de código dentro de else.*
 
 #### Pregunta 4
 ¿Cuál de las siguientes opciones NO es una estructura de control en programación?
@@ -313,8 +313,8 @@ else:
 - C) while
 - D) def
 
-<!-- **Respuesta correcta: D) def**  
-*Descripción: def se utiliza para definir funciones en Python, no es una estructura de control.* -->
+**Respuesta correcta: D) def**  
+*Descripción: def se utiliza para definir funciones en Python, no es una estructura de control.*
 
 #### Pregunta 5
 ¿Qué salida genera el siguiente código?
@@ -329,8 +329,8 @@ while contador < 3:
 - C) Contador: 0, Contador: 1, Contador: 2, Contador: 3
 - D) Contador: 1, Contador: 2, Contador: 3, Contador: 4
 
-<!-- **Respuesta correcta: A) Contador: 0, Contador: 1, Contador: 2**  
-*Descripción: El bucle while se ejecuta mientras contador sea menor que 3, incrementando el contador en cada iteración hasta que alcanza el valor 3.* -->
+**Respuesta correcta: A) Contador: 0, Contador: 1, Contador: 2**  
+*Descripción: El bucle while se ejecuta mientras contador sea menor que 3, incrementando el contador en cada iteración hasta que alcanza el valor 3.*
 
 #### Pregunta 6
 En la estructura switch-case simulada con un diccionario en Python, ¿qué se imprime al ejecutar switch_case("Sábado")?
@@ -354,8 +354,8 @@ print(switch_case("Sábado"))
 - C) Día de descanso
 - D) Día no válido
 
-<!-- **Respuesta correcta: C) Día de descanso**  
-*Descripción: El valor correspondiente a la clave "Sábado" en el diccionario es "Día de descanso".* -->
+**Respuesta correcta: C) Día de descanso**  
+*Descripción: El valor correspondiente a la clave "Sábado" en el diccionario es "Día de descanso".*
 
 #### Pregunta 7
 ¿Qué estructura de control se utiliza para iterar sobre una secuencia?
@@ -364,8 +364,8 @@ print(switch_case("Sábado"))
 - C) while
 - D) for
 
-<!-- **Respuesta correcta: D) for**  
-*Descripción: El bucle for se usa para iterar sobre una secuencia (como una lista, una tupla, un diccionario, un conjunto o una cadena).* -->
+**Respuesta correcta: D) for**  
+*Descripción: El bucle for se usa para iterar sobre una secuencia (como una lista, una tupla, un diccionario, un conjunto o una cadena).*
 
 #### Pregunta 8
 ¿Cuál será la salida del siguiente código?
@@ -379,8 +379,8 @@ for numero in numeros:
 - C) Número: 1, Número: 3, Número: 5
 - D) Número: 0, Número: 2, Número: 4
 
-<!-- **Respuesta correcta: A) Número: 1, Número: 2, Número: 3, Número: 4, Número: 5**  
-*Descripción: El bucle for itera sobre cada elemento de la lista numeros, imprimiendo cada uno en la salida.* -->
+**Respuesta correcta: A) Número: 1, Número: 2, Número: 3, Número: 4, Número: 5**  
+*Descripción: El bucle for itera sobre cada elemento de la lista numeros, imprimiendo cada uno en la salida.*
 
 #### Pregunta 9
 ¿Cuál es la salida del siguiente código usando range?
@@ -393,8 +393,8 @@ for i in range(3):
 - C) Iteración: 1, Iteración: 2
 - D) Iteración: 0, Iteración: 1, Iteración: 2, Iteración: 3
 
-<!-- **Respuesta correcta: B) Iteración: 0, Iteración: 1, Iteración: 2**  
-*Descripción: El rango de 3 en la función range genera los números 0, 1 y 2. El bucle for itera sobre estos valores e imprime cada uno en la salida.* -->
+**Respuesta correcta: B) Iteración: 0, Iteración: 1, Iteración: 2**  
+*Descripción: El rango de 3 en la función range genera los números 0, 1 y 2. El bucle for itera sobre estos valores e imprime cada uno en la salida.*
 
 #### Pregunta 10
 ¿Qué estructura de control permite seleccionar entre varias alternativas posibles basadas en el valor de una variable?
@@ -403,5 +403,5 @@ for i in range(3):
 - C) for
 - D) switch-case
 
-<!-- **Respuesta correcta: D) switch-case**  
-*Descripción: La estructura switch-case permite seleccionar entre varias alternativas posibles basadas en el valor de una variable.* -->
+**Respuesta correcta: D) switch-case**  
+*Descripción: La estructura switch-case permite seleccionar entre varias alternativas posibles basadas en el valor de una variable.*
