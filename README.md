@@ -558,3 +558,277 @@ Las operaciones con arreglos de diferentes dimensiones son fundamentales en la p
 ---
 
 Este capítulo cubre las operaciones básicas con arreglos de diferentes dimensiones, proporcionando una base sólida para trabajar con estas estructuras de datos en cualquier lenguaje de programación.
+
+
+# 
+
+# Examen: Operaciones con Arreglos de Diferentes Dimensiones
+
+1. ¿Cómo accedes al tercer elemento de un arreglo unidimensional en Python?
+
+a) numeros[3]
+
+b) numeros[2]
+
+c) numeros[1]
+
+d) numeros[0]
+
+<!-- Respuesta correcta: b) numeros[2]
+
+Justificación: Los arreglos en Python son indexados desde cero, por lo tanto, el tercer elemento está en la posición 2. -->
+
+2. ¿Qué operación se está realizando con el siguiente código? numeros[1] = 25
+
+a) Acceso a elementos
+
+b) Modificación de elementos
+
+c) Recorrido del arreglo
+
+d) Inserción de elementos
+
+<!-- Respuesta correcta: b) Modificación de elementos
+
+Justificación: Se está asignando un nuevo valor (25) al segundo elemento del arreglo. -->
+
+3. ¿Qué valor imprimirá el siguiente código?
+
+python
+Copy code
+numeros = [10, 20, 30, 40, 50]
+print(numeros[0])
+a) 10
+
+b) 20
+
+c) 30
+
+d) 40
+
+<!-- Respuesta correcta: a) 10
+
+Justificación: Se está imprimiendo el primer elemento del arreglo, que es 10. -->
+
+4. ¿Cómo recorres todos los elementos de un arreglo unidimensional en Python?
+
+a) for i in range(len(numeros)): print(numeros[i])
+
+b) for numero in numeros: print(numero)
+
+c) while i < len(numeros): print(numeros[i])
+
+d) Todas las anteriores
+
+<!-- Respuesta correcta: d) Todas las anteriores
+
+Justificación: Todas las opciones recorren correctamente los elementos de un arreglo en Python. -->
+
+5. ¿Qué operación se realiza con el siguiente código?
+
+python
+Copy code
+if 30 in numeros:
+    print("30 está en el arreglo")
+a) Acceso a elementos
+
+b) Modificación de elementos
+
+c) Búsqueda de elementos
+
+d) Inserción de elementos
+
+<!-- Respuesta correcta: c) Búsqueda de elementos
+
+Justificación: El código verifica si el número 30 está presente en el arreglo. -->
+
+6. ¿Qué hace el método append en Python?
+
+a) Modifica un elemento
+
+b) Inserta un elemento
+
+c) Elimina un elemento
+
+d) Recorre el arreglo
+
+<!-- Respuesta correcta: b) Inserta un elemento
+
+Justificación: append añade un nuevo elemento al final del arreglo. -->
+
+7. ¿Cómo accedes al elemento de la segunda fila y tercera columna en un arreglo bidimensional?
+
+a) matriz[2][3]
+
+b) matriz[1][2]
+
+c) matriz[0][2]
+
+d) matriz[1][3]
+
+<!-- Respuesta correcta: b) matriz[1][2]
+
+Justificación: Los índices son cero-basados, así que la segunda fila está en el índice 1 y la tercera columna en el índice 2. -->
+
+8. ¿Qué valor se obtiene con matriz[0][1] si matriz es el siguiente arreglo?
+
+python
+Copy code
+matriz = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+a) 1
+
+b) 2
+
+c) 3
+
+d) 4
+<!-- 
+Respuesta correcta: b) 2
+
+Justificación: matriz[0][1] accede al elemento en la primera fila, segunda columna, que es 2. -->
+
+9. ¿Qué hace el siguiente código?
+
+python
+Copy code
+matriz[0][1] = 20
+a) Accede a un elemento
+
+b) Modifica un elemento
+
+c) Elimina un elemento
+
+d) Inserta un elemento
+
+<!-- Respuesta correcta: b) Modifica un elemento
+
+Justificación: Cambia el valor del elemento en la primera fila y segunda columna a 20. -->
+
+10. ¿Qué imprimirá el siguiente código?
+
+python
+Copy code
+for fila in matriz:
+    for elemento in fila:
+        print(elemento)
+a) Todos los elementos de la primera fila
+
+b) Todos los elementos de la última fila
+
+c) Todos los elementos de la matriz
+
+d) Ninguno de los anteriores
+
+<!-- Respuesta correcta: c) Todos los elementos de la matriz
+
+Justificación: El bucle anidado recorre e imprime todos los elementos de todas las filas en la matriz. -->
+
+11. ¿Cuál es el resultado de matriz.append([10, 11, 12]) si matriz es?
+
+python
+Copy code
+[
+    [1, 20, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+a) Inserta una columna
+
+b) Inserta una fila
+
+c) Modifica una fila
+
+d) Elimina una fila
+
+<!-- Respuesta correcta: b) Inserta una fila
+
+Justificación: append agrega una nueva fila al final de la matriz. -->
+
+12. ¿Qué valor se obtiene con arreglo_3d[1][2][0] si arreglo_3d es?
+
+python
+Copy code
+arreglo_3d = [
+    [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+    ],
+    [
+        [10, 11, 12],
+        [13, 14, 15],
+        [16, 17, 18]
+    ]
+]
+a) 10
+
+b) 11
+
+c) 16
+
+d) 18
+
+<!-- Respuesta correcta: c) 16
+
+Justificación: arreglo_3d[1][2][0] accede al primer elemento de la tercera fila en la segunda matriz. -->
+
+13. ¿Qué operación se realiza con el siguiente código?
+
+python
+Copy code
+arreglo_3d[0][1][2] = 60
+a) Acceso a elementos
+
+b) Modificación de elementos
+
+c) Búsqueda de elementos
+
+d) Inserción de elementos
+
+<!-- Respuesta correcta: b) Modificación de elementos
+
+Justificación: El código cambia el valor del elemento en la posición [0][1][2] a 60. -->
+
+14. ¿Cuál es la estructura correcta para recorrer todos los elementos en un arreglo tridimensional?
+
+a) Un solo bucle for
+
+b) Dos bucles for anidados
+
+c) Tres bucles for anidados
+
+d) Cuatro bucles for anidados
+
+<!-- Respuesta correcta: c) Tres bucles for anidados
+
+Justificación: Un arreglo tridimensional requiere tres bucles anidados para recorrer todos sus elementos. -->
+
+15. ¿Qué se imprime con el siguiente código?
+
+python
+Copy code
+for matriz in arreglo_3d:
+    for fila in matriz:
+        for elemento in fila:
+            print(elemento)
+a) Todos los elementos de la primera matriz
+
+b) Todos los elementos de la última matriz
+
+c) Todos los elementos del arreglo tridimensional
+
+d) Ninguno de los anteriores
+
+<!-- Respuesta correcta: c) Todos los elementos del arreglo tridimensional
+
+Justificación: El bucle anidado recorre e imprime todos los elementos de cada matriz y fila en el arreglo tridimensional.
+ -->
+
+
+# 
+
+
