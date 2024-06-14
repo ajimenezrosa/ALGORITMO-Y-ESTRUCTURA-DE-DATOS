@@ -841,7 +841,7 @@ Justificación: El bucle anidado recorre e imprime todos los elementos de cada m
 # 
 
 
-### Capítulo 1: Listas<a name="listas"></a>
+### Capítulo 6: Listas<a name="listas"></a>
 
 #### Introducción
 Las listas son una de las estructuras de datos más básicas y ampliamente utilizadas en la programación. Se utilizan para almacenar una colección ordenada de elementos, que pueden ser de cualquier tipo. Las listas son dinámicas, lo que significa que pueden crecer y disminuir en tamaño según sea necesario.
@@ -1023,7 +1023,7 @@ for tarea in tareas:
 
 ---
 
-### Capítulo 2: Pilas<a name="pilas"></a>
+### Capítulo 7: Pilas<a name="pilas"></a>
 
 #### Introducción
 Las pilas (o stacks) son una estructura de datos lineal que sigue el principio LIFO (Last In, First Out), es decir, el último elemento en entrar es el primero en salir. Las pilas son utilizadas comúnmente en aplicaciones como la evaluación de expresiones, gestión de la memoria, y algoritmos de retroceso (backtracking).
@@ -1207,7 +1207,7 @@ def ir_adelante():
 
 ---
 
-### Capítulo 3: Colas<a name="colas"></a>
+### Capítulo 8: Colas<a name="colas"></a>
 
 #### Introducción
 Las colas (o queues) son una estructura de datos lineal que sigue el principio FIFO (First In, First Out), es decir, el primer elemento en entrar es el primero en salir. Las colas son utilizadas en escenarios como la gestión de tareas en sistemas operativos, manejo de solicitudes en servidores, y sistemas de impresión.
