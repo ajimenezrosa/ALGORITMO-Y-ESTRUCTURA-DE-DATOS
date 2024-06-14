@@ -16,6 +16,15 @@
 
 5. [Capítulo: Operaciones con Arreglos de Diferentes Dimensiones](#arreglosoperaciones)
 
+6. [Capítulo 1: Listas](#listas)
+
+7. [Capítulo 2: Pilas](#pilas)
+
+8. [Capítulo 3: Colas](#colas)
+
+
+
+# 
 
 ## Introducción
 
@@ -830,5 +839,559 @@ Justificación: El bucle anidado recorre e imprime todos los elementos de cada m
 
 
 # 
+
+
+### Capítulo 1: Listas<a name="listas"></a>
+
+#### Introducción
+Las listas son una de las estructuras de datos más básicas y ampliamente utilizadas en la programación. Se utilizan para almacenar una colección ordenada de elementos, que pueden ser de cualquier tipo. Las listas son dinámicas, lo que significa que pueden crecer y disminuir en tamaño según sea necesario.
+
+#### Conceptos Básicos
+- **Definición**: Una lista es una colección ordenada de elementos donde cada elemento puede ser accedido por su posición (índice).
+- **Índice**: Cada elemento en una lista tiene una posición asignada, comenzando desde 0 para el primer elemento hasta n-1 para el último, donde n es el número de elementos en la lista.
+- **Elementos**: Los elementos de una lista pueden ser de cualquier tipo de datos, incluyendo números, cadenas, u otras listas.
+
+#### Operaciones Comunes
+1. **Creación**:
+    ```python
+    lista_vacia = []
+    lista_con_elementos = [1, 2, 3, "cuatro", 5.0]
+    ```
+2. **Acceso**:
+    ```python
+    primer_elemento = lista_con_elementos[0]  # 1
+    ultimo_elemento = lista_con_elementos[-1]  # 5.0
+    ```
+3. **Modificación**:
+    ```python
+    lista_con_elementos[1] = "dos"
+    ```
+4. **Añadir Elementos**:
+    ```python
+    lista_con_elementos.append("seis")
+    ```
+5. **Eliminar Elementos**:
+    ```python
+    lista_con_elementos.remove("cuatro")
+    ```
+6. **Longitud de la Lista**:
+    ```python
+    longitud = len(lista_con_elementos)  # 5
+    ```
+7. **Rebanado (Slicing)**:
+    ```python
+    sublista = lista_con_elementos[1:3]  # ["dos", 3]
+    ```
+
+#### Ejemplo de Implementación
+Supongamos que queremos mantener una lista de tareas por hacer.
+
+```python
+tareas = ["Comprar leche", "Llamar al doctor", "Estudiar estructuras de datos"]
+
+# Añadir una tarea
+tareas.append("Limpiar la casa")
+
+# Completar una tarea y eliminarla de la lista
+tareas.remove("Comprar leche")
+
+# Ver todas las tareas
+for tarea in tareas:
+    print(tarea)
+```
+
+#### Examen de Selección Múltiple
+1. ¿Qué valor se obtiene al acceder al índice -1 de una lista?
+   - a) El primer elemento
+   - b) Un error de índice
+   - c) El último elemento
+   - d) Ninguna de las anteriores
+   <!-- - **Respuesta Correcta: c) El último elemento**
+     - **Justificación**: El índice -1 en una lista accede al último elemento de la misma. -->
+
+2. ¿Qué método se usa para añadir un elemento al final de una lista en Python?
+   - a) add()
+   - b) insert()
+   - c) append()
+   - d) extend()
+   <!-- - **Respuesta Correcta: c) append()**
+     - **Justificación**: El método `append()` se utiliza específicamente para añadir un elemento al final de una lista. -->
+
+3. ¿Cómo se crea una lista vacía en Python?
+   - a) `lista = {}`
+   - b) `lista = []`
+   - c) `lista = ()`
+   - d) `lista = [:]`
+   <!-- - **Respuesta Correcta: b) lista = []**
+     - **Justificación**: Las listas vacías en Python se crean usando corchetes `[]`. -->
+
+4. ¿Cuál es la longitud de la lista `lista = [1, 2, [3, 4], 5]`?
+   - a) 3
+   - b) 4
+   - c) 5
+   - d) 6
+   <!-- - **Respuesta Correcta: b) 4**
+     - **Justificación**: La lista tiene cuatro elementos: 1, 2, una lista interna `[3, 4]`, y 5. -->
+
+5. ¿Qué operación permite obtener una sublista en Python?
+   - a) append
+   - b) remove
+   - c) slicing
+   - d) pop
+   <!-- - **Respuesta Correcta: c) slicing**
+     - **Justificación**: El slicing se utiliza para obtener una sublista especificando un rango de índices. -->
+
+6. ¿Qué sucede si intentamos acceder a un índice que está fuera del rango de la lista?
+   - a) Se devuelve None
+   - b) Se produce un error de índice
+   - c) Se devuelve el último elemento de la lista
+   - d) Se produce un error de tipo
+   <!-- - **Respuesta Correcta: b) Se produce un error de índice**
+     - **Justificación**: Acceder a un índice fuera del rango de la lista produce un error `IndexError`. -->
+
+7. ¿Cuál es el resultado de la operación `lista = [1, 2]; lista += [3, 4]`?
+   - a) [1, 2, [3, 4]]
+   - b) [1, 2, 3, 4]
+   - c) [3, 4, 1, 2]
+   - d) Error
+   <!-- - **Respuesta Correcta: b) [1, 2, 3, 4]**
+     - **Justificación**: El operador `+=` extiende la lista original añadiendo los elementos del iterable proporcionado. -->
+
+8. ¿Cómo se elimina un elemento específico de una lista?
+   - a) `del lista[indice]`
+   - b) `lista.remove(elemento)`
+   - c) `lista.pop(indice)`
+   <!-- - d) Todas las anteriores
+   - **Respuesta Correcta: d) Todas las anteriores**
+     - **Justificación**: Cada opción representa una manera válida de eliminar un elemento de una lista en Python. -->
+
+9. ¿Cuál es el resultado de `lista = [1, 2, 3]; lista.insert(1, "dos")`?
+   - a) [1, "dos", 2, 3]
+   - b) [1, 2, "dos", 3]
+   - c) ["dos", 1, 2, 3]
+   - d) Error
+   <!-- - **Respuesta Correcta: a) [1, "dos", 2, 3]**
+     - **Justificación**: La operación `insert` añade el elemento "dos" en la posición 1. -->
+
+10. ¿Cómo se accede al tercer elemento de una lista?
+    - a) lista[2]
+    - b) lista[3]
+    - c) lista[-1]
+    - d) lista[-3]
+    <!-- - **Respuesta Correcta: a) lista[2]**
+      - **Justificación**: Los índices en las listas de Python comienzan en 0, por lo que el tercer elemento está en la posición 2. -->
+
+11. ¿Qué función devuelve el número de elementos en una lista?
+    - a) length(lista)
+    - b) count(lista)
+    - c) len(lista)
+    - d) size(lista)
+    <!-- - **Respuesta Correcta: c) len(lista)**
+      - **Justificación**: La función `len()` se utiliza para obtener la longitud (número de elementos) de una lista. -->
+
+12. ¿Cuál es el resultado de `lista = [1, 2, 3]; lista.pop(1)`?
+    - a) [1, 3]
+    - b) [1, 2]
+    - c) [2, 3]
+    - d) [1]
+    <!-- - **Respuesta Correcta: a) [1, 3]**
+      - **Justificación**: La operación `pop(1)` elimina el elemento en el índice 1 (el segundo elemento). -->
+
+13. ¿Qué método se utiliza para agregar todos los elementos de una lista a otra?
+    - a) append()
+    - b) extend()
+    - c) insert()
+    - d) join()
+    <!-- - **Respuesta Correcta: b) extend()**
+      - **Justificación**: El método `extend()` añade todos los elementos de una lista al final de otra lista. -->
+
+14. ¿Cuál es el resultado de `lista = [1, 2, 3]; lista.remove(2)`?
+    - a) [1, 3]
+    - b) [1, 2]
+    - c) [2, 3]
+    - d) [1]
+    <!-- - **Respuesta Correcta: a) [1, 3]**
+      - **Justificación**: La operación `remove(2)` elimina el primer elemento igual a 2 de la lista. -->
+
+15. ¿Qué método se utiliza para ordenar una lista en Python?
+    - a) sort()
+    - b) order()
+    - c) arrange()
+    - d) sorted()
+    <!-- - **Respuesta Correcta: a) sort()**
+      - **Justificación**: El método `sort()` se utiliza para ordenar una lista en su lugar (in-place). -->
+
+---
+
+### Capítulo 2: Pilas<a name="pilas"></a>
+
+#### Introducción
+Las pilas (o stacks) son una estructura de datos lineal que sigue el principio LIFO (Last In, First Out), es decir, el último elemento en entrar es el primero en salir. Las pilas son utilizadas comúnmente en aplicaciones como la evaluación de expresiones, gestión de la memoria, y algoritmos de retroceso (backtracking).
+
+#### Conceptos Básicos
+- **Push**: Oper
+
+ación que añade un elemento al tope de la pila.
+- **Pop**: Operación que elimina el elemento en el tope de la pila.
+- **Peek/Top**: Operación que devuelve el elemento en el tope de la pila sin eliminarlo.
+
+#### Operaciones Comunes
+1. **Creación**:
+    ```python
+    pila = []
+    ```
+2. **Push (Añadir)**:
+    ```python
+    pila.append(1)
+    pila.append(2)
+    ```
+3. **Pop (Eliminar)**:
+    ```python
+    elemento = pila.pop()  # 2
+    ```
+4. **Peek/Top (Consultar)**:
+    ```python
+    tope = pila[-1]  # 1
+    ```
+5. **Verificación de Pila Vacía**:
+    ```python
+    esta_vacia = len(pila) == 0
+    ```
+
+#### Ejemplo de Implementación
+Simulación de un navegador web con funcionalidades de "Atrás" y "Adelante".
+
+```python
+historial_atras = []
+historial_adelante = []
+
+# Visitar nueva página
+def visitar_pagina(pagina):
+    historial_atras.append(pagina)
+    # Limpiar el historial de "adelante" porque hemos visitado una nueva página
+    historial_adelante.clear()
+
+# Retroceder
+def ir_atras():
+    if historial_atras:
+        pagina_actual = historial_atras.pop()
+        historial_adelante.append(pagina_actual)
+
+# Avanzar
+def ir_adelante():
+    if historial_adelante:
+        pagina_actual = historial_adelante.pop()
+        historial_atras.append(pagina_actual)
+```
+
+#### Examen de Selección Múltiple
+1. ¿Qué operación de pila permite ver el elemento en el tope sin eliminarlo?
+   - a) push
+   - b) pop
+   - c) peek
+   - d) append
+   <!-- - **Respuesta Correcta: c) peek**
+     - **Justificación**: La operación `peek` devuelve el elemento en el tope de la pila sin eliminarlo. -->
+
+2. ¿Qué estructura de datos sigue el principio LIFO?
+   - a) Lista
+   - b) Cola
+   - c) Pila
+   - d) Árbol
+   <!-- - **Respuesta Correcta: c) Pila**
+     - **Justificación**: Una pila (stack) sigue el principio LIFO (Last In, First Out). -->
+
+3. ¿Qué operación de pila se utiliza para añadir un elemento?
+   - a) append
+   - b) insert
+   - c) push
+   - d) add
+   <!-- - **Respuesta Correcta: c) push**
+     - **Justificación**: La operación `push` añade un elemento al tope de la pila. -->
+
+4. ¿Qué operación de pila se utiliza para eliminar el elemento en el tope?
+   - a) remove
+   - b) delete
+   - c) pop
+   - d) cut
+   <!-- - **Respuesta Correcta: c) pop**
+     - **Justificación**: La operación `pop` elimina y devuelve el elemento en el tope de la pila. -->
+
+5. ¿Qué función en Python se puede usar para verificar si una pila está vacía?
+   - a) isEmpty()
+   - b) is_empty()
+   - c) empty()
+   - d) len()
+   <!-- - **Respuesta Correcta: d) len()**
+     - **Justificación**: La función `len()` se utiliza para obtener el número de elementos en la pila, y compararlo con 0 para verificar si está vacía. -->
+
+6. ¿Qué sucede si se intenta realizar una operación `pop` en una pila vacía en Python?
+   - a) Retorna None
+   - b) Retorna False
+   - c) Lanza una excepción
+   - d) No hace nada
+   <!-- - **Respuesta Correcta: c) Lanza una excepción**
+     - **Justificación**: Intentar realizar `pop` en una pila vacía en Python lanza una excepción `IndexError`. -->
+
+7. ¿Cuál es el resultado de la operación `pila = [1, 2, 3]; pila.append(4); pila.pop()`?
+   - a) [1, 2]
+   - b) [1, 2, 3]
+   - c) [1, 2, 3, 4]
+   - d) [1, 2, 4]
+   <!-- - **Respuesta Correcta: b) [1, 2, 3]**
+     - **Justificación**: Se añade 4 a la pila, y luego se elimina con `pop()`, dejando la pila como estaba inicialmente. -->
+
+8. ¿Qué operación permite añadir un elemento al tope de la pila?
+   - a) enqueue
+   - b) insert
+   - c) push
+   - d) extend
+   <!-- - **Respuesta Correcta: c) push**
+     - **Justificación**: La operación `push` se utiliza para añadir un elemento al tope de la pila. -->
+
+9. ¿Qué operación devuelve y elimina el elemento del tope de la pila?
+   - a) push
+   - b) pop
+   - c) top
+   - d) peek
+   <!-- - **Respuesta Correcta: b) pop**
+     - **Justificación**: La operación `pop` devuelve y elimina el elemento en el tope de la pila. -->
+
+10. ¿Qué operación devuelve el elemento del tope de la pila sin eliminarlo?
+    - a) push
+    - b) pop
+    - c) top
+    - d) peek
+    <!-- - **Respuesta Correcta: d) peek**
+      - **Justificación**: La operación `peek` devuelve el elemento en el tope de la pila sin eliminarlo. -->
+
+11. ¿Qué estructura de datos se utiliza generalmente para la evaluación de expresiones matemáticas?
+    - a) Lista
+    - b) Cola
+    - c) Pila
+    - d) Árbol
+    <!-- - **Respuesta Correcta: c) Pila**
+      - **Justificación**: Las pilas son ampliamente utilizadas para la evaluación de expresiones matemáticas debido a su naturaleza LIFO. -->
+
+12. ¿Qué estructura de datos se utiliza comúnmente en los algoritmos de retroceso (backtracking)?
+    - a) Lista
+    - b) Cola
+    - c) Pila
+    - d) Árbol
+    <!-- - **Respuesta Correcta: c) Pila**
+      - **Justificación**: Las pilas son útiles en los algoritmos de retroceso debido a su capacidad para deshacer pasos de manera eficiente. -->
+
+13. ¿Cuál es el resultado de `pila = []; pila.append(1); pila.append(2); pila.pop(); pila.append(3)`?
+    - a) [1, 2, 3]
+    - b) [1, 3]
+    - c) [2, 3]
+    - d) [1, 2]
+    <!-- - **Respuesta Correcta: b) [1, 3]**
+      - **Justificación**: Se añade 1 y 2 a la pila, luego se elimina 2 con `pop()`, y finalmente se añade 3. -->
+
+14. ¿Qué operación permite ver si una pila está vacía?
+    - a) empty()
+    - b) is_empty()
+    - c) len()
+    - d) check()
+    - **Respuesta Correcta: c) len()**
+      <!-- - **Justificación**: La función `len()` devuelve el número de elementos en la pila y se puede comparar con 0 para verificar si está vacía. -->
+
+15. ¿Cuál es el resultado de `pila = [1, 2, 3]; pila.pop(); pila.pop(); pila.pop(); pila.pop()`?
+    - a) []
+    - b) [1]
+    - c) Error
+    - d) [1, 2]
+    <!-- - **Respuesta Correcta: c) Error**
+      - **Justificación**: Intentar realizar `pop()` en una pila vacía lanza una excepción `IndexError`. -->
+
+---
+
+### Capítulo 3: Colas<a name="colas"></a>
+
+#### Introducción
+Las colas (o queues) son una estructura de datos lineal que sigue el principio FIFO (First In, First Out), es decir, el primer elemento en entrar es el primero en salir. Las colas son utilizadas en escenarios como la gestión de tareas en sistemas operativos, manejo de solicitudes en servidores, y sistemas de impresión.
+
+#### Conceptos Básicos
+- **Enqueue**: Operación que añade un elemento al final de la cola.
+- **Dequeue**: Operación que elimina el primer elemento de la cola.
+- **Front**: Operación que devuelve el primer elemento de la cola sin eliminarlo.
+- **Rear**: Operación que devuelve el último elemento de la cola sin eliminarlo.
+
+#### Operaciones Comunes
+1. **Creación**:
+    ```python
+    from collections import deque
+    cola = deque()
+    ```
+2. **Enqueue (Añadir)**:
+    ```python
+    cola.append(1)
+    cola.append(2)
+    ```
+3. **Dequeue (Eliminar)**:
+    ```python
+    elemento = cola.popleft()  # 1
+    ```
+4. **Front (Consultar)**:
+    ```python
+    frente = cola[0]  # 2
+    ```
+5. **Rear (Consultar)**:
+    ```python
+    trasero = cola[-1]  # 2
+    ```
+
+#### Ejemplo de Implementación
+Simulación de una cola de atención al cliente.
+
+```python
+from collections import deque
+
+cola_espera = deque()
+
+# Añadir cliente a
+
+ la cola
+def añadir_cliente(cliente):
+    cola_espera.append(cliente)
+
+# Atender cliente (eliminar de la cola)
+def atender_cliente():
+    if cola_espera:
+        return cola_espera.popleft()
+    else:
+        return "No hay clientes en espera."
+
+# Ver el siguiente cliente a ser atendido
+def siguiente_cliente():
+    if cola_espera:
+        return cola_espera[0]
+    else:
+        return "No hay clientes en espera."
+```
+
+#### Examen de Selección Múltiple
+1. ¿Qué operación de cola permite añadir un elemento al final?
+   - a) push
+   - b) append
+   - c) enqueue
+   - d) insert
+   <!-- - **Respuesta Correcta: c) enqueue**
+     - **Justificación**: La operación `enqueue` añade un elemento al final de la cola. -->
+
+2. ¿Qué estructura de datos sigue el principio FIFO?
+   - a) Lista
+   - b) Cola
+   - c) Pila
+   - d) Árbol
+   <!-- - **Respuesta Correcta: b) Cola**
+     - **Justificación**: Una cola (queue) sigue el principio FIFO (First In, First Out). -->
+
+3. ¿Qué operación de cola se utiliza para eliminar el primer elemento?
+   - a) dequeue
+   - b) remove
+   - c) pop
+   - d) delete
+   <!-- - **Respuesta Correcta: a) dequeue**
+     - **Justificación**: La operación `dequeue` elimina el primer elemento de la cola. -->
+
+4. ¿Qué operación devuelve el primer elemento de la cola sin eliminarlo?
+   - a) front
+   - b) top
+   - c) peek
+   - d) rear
+   <!-- - **Respuesta Correcta: a) front**
+     - **Justificación**: La operación `front` devuelve el primer elemento de la cola sin eliminarlo. -->
+
+5. ¿Qué operación devuelve el último elemento de la cola sin eliminarlo?
+   - a) front
+   - b) rear
+   - c) peek
+   - d) top
+   <!-- - **Respuesta Correcta: b) rear**
+     - **Justificación**: La operación `rear` devuelve el último elemento de la cola sin eliminarlo. -->
+
+6. ¿Qué estructura de datos se utiliza comúnmente en la gestión de tareas en sistemas operativos?
+   - a) Lista
+   - b) Cola
+   - c) Pila
+   - d) Árbol
+   <!-- - **Respuesta Correcta: b) Cola**
+     - **Justificación**: Las colas son utilizadas para gestionar tareas en sistemas operativos debido a su principio FIFO. -->
+
+7. ¿Qué función en Python se utiliza para crear una cola con `collections`?
+   - a) queue()
+   - b) deque()
+   - c) list()
+   - d) array()
+   <!-- - **Respuesta Correcta: b) deque()**
+     - **Justificación**: La función `deque()` del módulo `collections` se utiliza para crear una cola en Python. -->
+
+8. ¿Qué operación permite verificar si una cola está vacía?
+   - a) empty()
+   - b) is_empty()
+   - c) len()
+   - d) check()
+   <!-- - **Respuesta Correcta: c) len()**
+     - **Justificación**: La función `len()` devuelve el número de elementos en la cola y se puede comparar con 0 para verificar si está vacía. -->
+
+9. ¿Cuál es el resultado de la operación `cola = deque([1, 2, 3]); cola.append(4); cola.popleft()`?
+   - a) [1, 2, 3]
+   - b) [2, 3, 4]
+   - c) [4, 2, 3]
+   - d) [1, 4, 3]
+   <!-- - **Respuesta Correcta: b) [2, 3, 4]**
+     - **Justificación**: Se añade 4 al final de la cola, y luego se elimina 1 del principio con `popleft()`. -->
+
+10. ¿Cuál es el resultado de `cola = deque([1, 2, 3]); cola.popleft(); cola.popleft(); cola.popleft(); cola.popleft()`?
+    - a) []
+    - b) [1]
+    - c) Error
+    - d) [1, 2]
+    <!-- - **Respuesta Correcta: c) Error**
+      - **Justificación**: Intentar realizar `popleft()` en una cola vacía lanza una excepción `IndexError`. -->
+
+11. ¿Qué operación permite añadir un elemento al final de la cola?
+    - a) enqueue
+    - b) append
+    - c) insert
+    - d) extend
+    <!-- - **Respuesta Correcta: a) enqueue**
+      - **Justificación**: La operación `enqueue` se utiliza para añadir un elemento al final de la cola. -->
+
+12. ¿Qué operación devuelve y elimina el primer elemento de la cola?
+    - a) front
+    - b) dequeue
+    - c) pop
+    - d) rear
+    <!-- - **Respuesta Correcta: b) dequeue**
+      - **Justificación**: La operación `dequeue` devuelve y elimina el primer elemento de la cola. -->
+
+13. ¿Cuál es el resultado de `cola = deque(); cola.append(1); cola.append(2); cola.popleft(); cola.append(3)`?
+    - a) [1, 3]
+    - b) [2, 3]
+    - c) [1, 2, 3]
+    - d) [3, 2]
+    <!-- - **Respuesta Correcta: b) [2, 3]**
+      - **Justificación**: Se añade 1 y 2 a la cola, luego se elimina 1 con `popleft()`, y finalmente se añade 3. -->
+
+14. ¿Qué operación devuelve el primer elemento de la cola sin eliminarlo?
+    - a) front
+    - b) top
+    - c) peek
+    - d) rear
+    <!-- - **Respuesta Correcta: a) front**
+      - **Justificación**: La operación `front` devuelve el primer elemento de la cola sin eliminarlo. -->
+
+15. ¿Qué estructura de datos se utiliza comúnmente en el manejo de solicitudes en servidores?
+    - a) Lista
+    - b) Cola
+    - c) Pila
+    - d) Árbol
+    <!-- - **Respuesta Correcta: b) Cola**
+      - **Justificación**: Las colas son utilizadas para manejar solicitudes en servidores debido a su naturaleza FIFO. -->
+
+---
 
 
