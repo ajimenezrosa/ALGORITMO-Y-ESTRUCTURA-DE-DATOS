@@ -1278,120 +1278,120 @@ def siguiente_cliente():
    - b) append
    - c) enqueue
    - d) insert
-   <!-- - **Respuesta Correcta: c) enqueue**
-     - **Justificación**: La operación `enqueue` añade un elemento al final de la cola. -->
+   - **Respuesta Correcta: c) enqueue**
+     - **Justificación**: La operación `enqueue` añade un elemento al final de la cola.
 
 2. ¿Qué estructura de datos sigue el principio FIFO?
    - a) Lista
    - b) Cola
    - c) Pila
    - d) Árbol
-   <!-- - **Respuesta Correcta: b) Cola**
-     - **Justificación**: Una cola (queue) sigue el principio FIFO (First In, First Out). -->
+   - **Respuesta Correcta: b) Cola**
+     - **Justificación**: Una cola (queue) sigue el principio FIFO (First In, First Out).
 
 3. ¿Qué operación de cola se utiliza para eliminar el primer elemento?
    - a) dequeue
    - b) remove
    - c) pop
    - d) delete
-   <!-- - **Respuesta Correcta: a) dequeue**
-     - **Justificación**: La operación `dequeue` elimina el primer elemento de la cola. -->
+   - **Respuesta Correcta: a) dequeue**
+     - **Justificación**: La operación `dequeue` elimina el primer elemento de la cola.
 
 4. ¿Qué operación devuelve el primer elemento de la cola sin eliminarlo?
    - a) front
    - b) top
    - c) peek
    - d) rear
-   <!-- - **Respuesta Correcta: a) front**
-     - **Justificación**: La operación `front` devuelve el primer elemento de la cola sin eliminarlo. -->
+   - **Respuesta Correcta: a) front**
+     - **Justificación**: La operación `front` devuelve el primer elemento de la cola sin eliminarlo.
 
 5. ¿Qué operación devuelve el último elemento de la cola sin eliminarlo?
    - a) front
    - b) rear
    - c) peek
    - d) top
-   <!-- - **Respuesta Correcta: b) rear**
-     - **Justificación**: La operación `rear` devuelve el último elemento de la cola sin eliminarlo. -->
+   - **Respuesta Correcta: b) rear**
+     - **Justificación**: La operación `rear` devuelve el último elemento de la cola sin eliminarlo.
 
 6. ¿Qué estructura de datos se utiliza comúnmente en la gestión de tareas en sistemas operativos?
    - a) Lista
    - b) Cola
    - c) Pila
    - d) Árbol
-   <!-- - **Respuesta Correcta: b) Cola**
-     - **Justificación**: Las colas son utilizadas para gestionar tareas en sistemas operativos debido a su principio FIFO. -->
+   - **Respuesta Correcta: b) Cola**
+     - **Justificación**: Las colas son utilizadas para gestionar tareas en sistemas operativos debido a su principio FIFO.
 
 7. ¿Qué función en Python se utiliza para crear una cola con `collections`?
    - a) queue()
    - b) deque()
    - c) list()
    - d) array()
-   <!-- - **Respuesta Correcta: b) deque()**
-     - **Justificación**: La función `deque()` del módulo `collections` se utiliza para crear una cola en Python. -->
+   - **Respuesta Correcta: b) deque()**
+     - **Justificación**: La función `deque()` del módulo `collections` se utiliza para crear una cola en Python.
 
 8. ¿Qué operación permite verificar si una cola está vacía?
    - a) empty()
    - b) is_empty()
    - c) len()
    - d) check()
-   <!-- - **Respuesta Correcta: c) len()**
-     - **Justificación**: La función `len()` devuelve el número de elementos en la cola y se puede comparar con 0 para verificar si está vacía. -->
+   - **Respuesta Correcta: c) len()**
+     - **Justificación**: La función `len()` devuelve el número de elementos en la cola y se puede comparar con 0 para verificar si está vacía.
 
 9. ¿Cuál es el resultado de la operación `cola = deque([1, 2, 3]); cola.append(4); cola.popleft()`?
    - a) [1, 2, 3]
    - b) [2, 3, 4]
    - c) [4, 2, 3]
    - d) [1, 4, 3]
-   <!-- - **Respuesta Correcta: b) [2, 3, 4]**
-     - **Justificación**: Se añade 4 al final de la cola, y luego se elimina 1 del principio con `popleft()`. -->
+   - **Respuesta Correcta: b) [2, 3, 4]**
+     - **Justificación**: Se añade 4 al final de la cola, y luego se elimina 1 del principio con `popleft()`.
 
 10. ¿Cuál es el resultado de `cola = deque([1, 2, 3]); cola.popleft(); cola.popleft(); cola.popleft(); cola.popleft()`?
     - a) []
     - b) [1]
     - c) Error
     - d) [1, 2]
-    <!-- - **Respuesta Correcta: c) Error**
-      - **Justificación**: Intentar realizar `popleft()` en una cola vacía lanza una excepción `IndexError`. -->
+    - **Respuesta Correcta: c) Error**
+      - **Justificación**: Intentar realizar `popleft()` en una cola vacía lanza una excepción `IndexError`.
 
 11. ¿Qué operación permite añadir un elemento al final de la cola?
     - a) enqueue
     - b) append
     - c) insert
     - d) extend
-    <!-- - **Respuesta Correcta: a) enqueue**
-      - **Justificación**: La operación `enqueue` se utiliza para añadir un elemento al final de la cola. -->
+    - **Respuesta Correcta: a) enqueue**
+      - **Justificación**: La operación `enqueue` se utiliza para añadir un elemento al final de la cola.
 
 12. ¿Qué operación devuelve y elimina el primer elemento de la cola?
     - a) front
     - b) dequeue
     - c) pop
     - d) rear
-    <!-- - **Respuesta Correcta: b) dequeue**
-      - **Justificación**: La operación `dequeue` devuelve y elimina el primer elemento de la cola. -->
+    - **Respuesta Correcta: b) dequeue**
+      - **Justificación**: La operación `dequeue` devuelve y elimina el primer elemento de la cola.
 
 13. ¿Cuál es el resultado de `cola = deque(); cola.append(1); cola.append(2); cola.popleft(); cola.append(3)`?
     - a) [1, 3]
     - b) [2, 3]
     - c) [1, 2, 3]
     - d) [3, 2]
-    <!-- - **Respuesta Correcta: b) [2, 3]**
-      - **Justificación**: Se añade 1 y 2 a la cola, luego se elimina 1 con `popleft()`, y finalmente se añade 3. -->
+    - **Respuesta Correcta: b) [2, 3]**
+      - **Justificación**: Se añade 1 y 2 a la cola, luego se elimina 1 con `popleft()`, y finalmente se añade 3.
 
 14. ¿Qué operación devuelve el primer elemento de la cola sin eliminarlo?
     - a) front
     - b) top
     - c) peek
     - d) rear
-    <!-- - **Respuesta Correcta: a) front**
-      - **Justificación**: La operación `front` devuelve el primer elemento de la cola sin eliminarlo. -->
+    - **Respuesta Correcta: a) front**
+      - **Justificación**: La operación `front` devuelve el primer elemento de la cola sin eliminarlo.
 
 15. ¿Qué estructura de datos se utiliza comúnmente en el manejo de solicitudes en servidores?
     - a) Lista
     - b) Cola
     - c) Pila
     - d) Árbol
-    <!-- - **Respuesta Correcta: b) Cola**
-      - **Justificación**: Las colas son utilizadas para manejar solicitudes en servidores debido a su naturaleza FIFO. -->
+    - **Respuesta Correcta: b) Cola**
+      - **Justificación**: Las colas son utilizadas para manejar solicitudes en servidores debido a su naturaleza FIFO.
 
 ---
 
