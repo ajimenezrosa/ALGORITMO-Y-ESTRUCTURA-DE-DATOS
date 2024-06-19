@@ -1278,6 +1278,7 @@ def siguiente_cliente():
    - b) append
    - c) enqueue
    - d) insert
+
    - **Respuesta Correcta: c) enqueue**
      - **Justificación**: La operación `enqueue` añade un elemento al final de la cola.
 
@@ -1706,8 +1707,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) La búsqueda binaria es más lenta que la búsqueda lineal.
     - D) La búsqueda lineal requiere dividir la lista en partes.
 
-    <!-- **Respuesta:** B
-    **Justificación:** La búsqueda binaria requiere que la lista esté ordenada para funcionar correctamente. -->
+    **Respuesta:** B
+    **Justificación:** La búsqueda binaria requiere que la lista esté ordenada para funcionar correctamente.
 
 2. **¿Cuál es la complejidad temporal de la búsqueda lineal en el peor caso?**
     - A) O(1)
@@ -1715,8 +1716,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) O(n)
     - D) O(n^2)
 
-    <!-- **Respuesta:** C
-    **Justificación:** En el peor caso, la búsqueda lineal debe revisar todos los elementos de la lista, resultando en una complejidad temporal de O(n). -->
+    **Respuesta:** C
+    **Justificación:** En el peor caso, la búsqueda lineal debe revisar todos los elementos de la lista, resultando en una complejidad temporal de O(n).
 
 3. **¿Cuál es la complejidad temporal de la búsqueda binaria en el peor caso?**
     - A) O(1)
@@ -1724,8 +1725,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) O(n)
     - D) O(n^2)
 
-    <!-- **Respuesta:** B
-    **Justificación:** En el peor caso, la búsqueda binaria tiene una complejidad temporal de O(log n) debido a la división repetida de la lista. -->
+    **Respuesta:** B
+    **Justificación:** En el peor caso, la búsqueda binaria tiene una complejidad temporal de O(log n) debido a la división repetida de la lista.
 
 4. **¿Qué devuelve una búsqueda lineal si el elemento no se encuentra en la lista?**
     - A) 0
@@ -1733,17 +1734,17 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) None
     - D) El último índice de la lista
 
-    <!-- **Respuesta:** B
-    **Justificación:** La implementación típica de la búsqueda lineal devuelve -1 si el elemento no se encuentra en la lista. -->
+    **Respuesta:** B
+    **Justificación:** La implementación típica de la búsqueda lineal devuelve -1 si el elemento no se encuentra en la lista.
 
 5. **¿Qué tipo de lista es necesaria para realizar una búsqueda binaria?**
     - A) Lista ordenada
     - B) Lista desordenada
     - C) Lista vacía
     - D) Lista con elementos duplicados
-<!-- 
+
     **Respuesta:** A
-    **Justificación:** La búsqueda binaria solo puede realizarse en una lista ordenada. -->
+    **Justificación:** La búsqueda binaria solo puede realizarse en una lista ordenada.
 
 6. **¿Qué devuelve una búsqueda binaria si el elemento no se encuentra en la lista?**
     - A) 0
@@ -1751,8 +1752,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) None
     - D) El último índice de la lista
 
-    <!-- **Respuesta:** B
-    **Justificación:** La implementación típica de la búsqueda binaria devuelve -1 si el elemento no se encuentra en la lista. -->
+    **Respuesta:** B
+    **Justificación:** La implementación típica de la búsqueda binaria devuelve -1 si el elemento no se encuentra en la lista.
 
 7. **¿Qué ventaja tiene la búsqueda binaria sobre la búsqueda lineal?**
     - A) Funciona en listas desordenadas
@@ -1760,8 +1761,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) Es más eficiente en listas grandes y ordenadas
     - D) No requiere acceso a los elementos de la lista
 
-    <!-- **Respuesta:** C
-    **Justificación:** La búsqueda binaria es más eficiente que la búsqueda lineal en listas grandes y ordenadas debido a su complejidad temporal de O(log n). -->
+    **Respuesta:** C
+    **Justificación:** La búsqueda binaria es más eficiente que la búsqueda lineal en listas grandes y ordenadas debido a su complejidad temporal de O(log n).
 
 8. **¿Cuál de los siguientes casos resulta en el peor desempeño de la búsqueda lineal?**
     - A) El elemento está en la primera posición
@@ -1769,8 +1770,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) La lista está vacía
     - D) La lista está ordenada
 
-    <!-- **Respuesta:** B
-    **Justificación:** El peor caso de la búsqueda lineal ocurre cuando el elemento está en la última posición de la lista, ya que debe revisar todos los elementos. -->
+    **Respuesta:** B
+    **Justificación:** El peor caso de la búsqueda lineal ocurre cuando el elemento está en la última posición de la lista, ya que debe revisar todos los elementos.
 
 9. **¿Qué estrategia de búsqueda es más adecuada para listas cortas?**
     - A) Búsqueda lineal
@@ -1778,8 +1779,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) Ambas son igualmente adecuadas
     - D) Ninguna de las anteriores
 
-    <!-- **Respuesta:** A
-    **Justificación:** La búsqueda lineal es adecuada para listas cortas debido a su simplicidad y facilidad de implementación. -->
+    **Respuesta:** A
+    **Justificación:** La búsqueda lineal es adecuada para listas cortas debido a su simplicidad y facilidad de implementación.
 
 10. **¿En qué tipo de datos es más útil la búsqueda binaria?**
     - A) Datos desordenados
@@ -1787,8 +1788,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) Datos no numéricos
     - D) Datos complejos
 
-    <!-- **Respuesta:** B
-    **Justificación:** La búsqueda binaria es más útil en datos ordenados, ya que su eficiencia se basa en la división repetida de la lista ordenada. -->
+    **Respuesta:** B
+    **Justificación:** La búsqueda binaria es más útil en datos ordenados, ya que su eficiencia se basa en la división repetida de la lista ordenada.
 
 11. **¿Qué tipo de búsqueda es más adecuada para encontrar múltiples apariciones de un elemento en una lista desordenada?**
     - A) Búsqueda lineal
@@ -1796,17 +1797,17 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) Ambas
     - D) Ninguna
 
-    <!-- **Respuesta:** A
-    **Justificación:** La búsqueda lineal es adecuada para encontrar múltiples apariciones de un elemento en una lista desordenada, ya que puede revisar todos los elementos. -->
+    **Respuesta:** A
+    **Justificación:** La búsqueda lineal es adecuada para encontrar múltiples apariciones de un elemento en una lista desordenada, ya que puede revisar todos los elementos.
 
 12. **¿Qué tipo de búsqueda utilizarías si no conoces el orden de los elementos en la lista?**
     - A) Búsqueda lineal
     - B) Búsqueda binaria
     - C) Ambas
     - D) Ninguna
-<!-- 
+
     **Respuesta:** A
-    **Justificación:** La búsqueda lineal se puede utilizar en listas desordenadas, ya que no requiere que los elementos estén en un orden específico. -->
+    **Justificación:** La búsqueda lineal se puede utilizar en listas desordenadas, ya que no requiere que los elementos estén en un orden específico.
 
 13. **¿Cuál es la salida de `busqueda_binaria([1, 2, 3, 4, 5], 3)`?**
     - A) 0
@@ -1814,8 +1815,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) 2
     - D) 3
 
-    <!-- **Respuesta:** C
-    **Justificación:** En la lista `[1, 2, 3, 4, 5]`, el elemento `3` se encuentra en el índice `2`. -->
+    **Respuesta:** C
+    **Justificación:** En la lista `[1, 2, 3, 4, 5]`, el elemento `3` se encuentra en el índice `2`.
 
 14. **¿Cuál es la salida de `busqueda_lineal([1, 2, 3, 4, 5], 6)`?**
     - A) 4
@@ -1823,8 +1824,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) -1
     - D) None
 
-    <!-- **Respuesta:** C
-    **Justificación:** En la lista `[1, 2, 3, 4, 5]`, el elemento `6` no se encuentra, por lo que `busqueda_lineal` devuelve `-1`. -->
+    **Respuesta:** C
+    **Justificación:** En la lista `[1, 2, 3, 4, 5]`, el elemento `6` no se encuentra, por lo que `busqueda_lineal` devuelve `-1`.
 
 15. **¿Cuál es la complejidad temporal promedio de la búsqueda binaria?**
     - A) O(1)
@@ -1832,8 +1833,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) O(n)
     - D) O(n^2)
 
-    <!-- **Respuesta:** B
-    **Justificación:** La búsqueda binaria tiene una complejidad temporal promedio de O(log n) debido a la división repetida de la lista. -->
+    **Respuesta:** B
+    **Justificación:** La búsqueda binaria tiene una complejidad temporal promedio de O(log n) debido a la división repetida de la lista.
 
 ---
 
