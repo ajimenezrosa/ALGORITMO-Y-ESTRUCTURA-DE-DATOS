@@ -3684,7 +3684,7 @@ Este ejemplo muestra cómo el algoritmo de enfriamiento simulado puede resolver 
     ```
 
 ---
-
+<!-- 
 ### Examen del Capítulo
 
 1. **¿Qué es la programación lineal?**
@@ -3793,7 +3793,7 @@ Este ejemplo muestra cómo el algoritmo de enfriamiento simulado puede resolver 
     - d) Clasificar datos
 
     - **Respuesta correcta:** b) Optimizar problemas con restricciones lineales
-    - **Justificación:** La programación lineal se utiliza para encontrar soluciones óptimas a problemas con restricciones lineales.
+    - **Justificación:** La programación lineal se utiliza para encontrar soluciones óptimas a problemas con restricciones lineales. -->
 
 ### Cierre del Capítulo
 
