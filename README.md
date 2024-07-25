@@ -1304,104 +1304,104 @@ def siguiente_cliente():
    - b) remove
    - c) pop
    - d) delete
-   - **Respuesta Correcta: a) dequeue**
-     - **Justificación**: La operación `dequeue` elimina el primer elemento de la cola.
+   <!-- - **Respuesta Correcta: a) dequeue**
+     - **Justificación**: La operación `dequeue` elimina el primer elemento de la cola. -->
 
 4. ¿Qué operación devuelve el primer elemento de la cola sin eliminarlo?
    - a) front
    - b) top
    - c) peek
    - d) rear
-   - **Respuesta Correcta: a) front**
-     - **Justificación**: La operación `front` devuelve el primer elemento de la cola sin eliminarlo.
+   <!-- - **Respuesta Correcta: a) front**
+     - **Justificación**: La operación `front` devuelve el primer elemento de la cola sin eliminarlo. -->
 
 5. ¿Qué operación devuelve el último elemento de la cola sin eliminarlo?
    - a) front
    - b) rear
    - c) peek
    - d) top
-   - **Respuesta Correcta: b) rear**
-     - **Justificación**: La operación `rear` devuelve el último elemento de la cola sin eliminarlo.
+   <!-- - **Respuesta Correcta: b) rear**
+     - **Justificación**: La operación `rear` devuelve el último elemento de la cola sin eliminarlo. -->
 
 6. ¿Qué estructura de datos se utiliza comúnmente en la gestión de tareas en sistemas operativos?
    - a) Lista
    - b) Cola
    - c) Pila
    - d) Árbol
-   - **Respuesta Correcta: b) Cola**
-     - **Justificación**: Las colas son utilizadas para gestionar tareas en sistemas operativos debido a su principio FIFO.
+   <!-- - **Respuesta Correcta: b) Cola**
+     - **Justificación**: Las colas son utilizadas para gestionar tareas en sistemas operativos debido a su principio FIFO. -->
 
 7. ¿Qué función en Python se utiliza para crear una cola con `collections`?
    - a) queue()
    - b) deque()
    - c) list()
    - d) array()
-   - **Respuesta Correcta: b) deque()**
-     - **Justificación**: La función `deque()` del módulo `collections` se utiliza para crear una cola en Python.
+   <!-- - **Respuesta Correcta: b) deque()**
+     - **Justificación**: La función `deque()` del módulo `collections` se utiliza para crear una cola en Python. -->
 
 8. ¿Qué operación permite verificar si una cola está vacía?
    - a) empty()
    - b) is_empty()
    - c) len()
    - d) check()
-   - **Respuesta Correcta: c) len()**
-     - **Justificación**: La función `len()` devuelve el número de elementos en la cola y se puede comparar con 0 para verificar si está vacía.
+   <!-- - **Respuesta Correcta: c) len()**
+     - **Justificación**: La función `len()` devuelve el número de elementos en la cola y se puede comparar con 0 para verificar si está vacía. -->
 
 9. ¿Cuál es el resultado de la operación `cola = deque([1, 2, 3]); cola.append(4); cola.popleft()`?
    - a) [1, 2, 3]
    - b) [2, 3, 4]
    - c) [4, 2, 3]
    - d) [1, 4, 3]
-   - **Respuesta Correcta: b) [2, 3, 4]**
-     - **Justificación**: Se añade 4 al final de la cola, y luego se elimina 1 del principio con `popleft()`.
+   <!-- - **Respuesta Correcta: b) [2, 3, 4]**
+     - **Justificación**: Se añade 4 al final de la cola, y luego se elimina 1 del principio con `popleft()`. -->
 
 10. ¿Cuál es el resultado de `cola = deque([1, 2, 3]); cola.popleft(); cola.popleft(); cola.popleft(); cola.popleft()`?
     - a) []
     - b) [1]
     - c) Error
     - d) [1, 2]
-    - **Respuesta Correcta: c) Error**
-      - **Justificación**: Intentar realizar `popleft()` en una cola vacía lanza una excepción `IndexError`.
+    <!-- - **Respuesta Correcta: c) Error**
+      - **Justificación**: Intentar realizar `popleft()` en una cola vacía lanza una excepción `IndexError`. -->
 
 11. ¿Qué operación permite añadir un elemento al final de la cola?
     - a) enqueue
     - b) append
     - c) insert
     - d) extend
-    - **Respuesta Correcta: a) enqueue**
-      - **Justificación**: La operación `enqueue` se utiliza para añadir un elemento al final de la cola.
+    <!-- - **Respuesta Correcta: a) enqueue**
+      - **Justificación**: La operación `enqueue` se utiliza para añadir un elemento al final de la cola. -->
 
 12. ¿Qué operación devuelve y elimina el primer elemento de la cola?
     - a) front
     - b) dequeue
     - c) pop
     - d) rear
-    - **Respuesta Correcta: b) dequeue**
-      - **Justificación**: La operación `dequeue` devuelve y elimina el primer elemento de la cola.
+    <!-- - **Respuesta Correcta: b) dequeue**
+      - **Justificación**: La operación `dequeue` devuelve y elimina el primer elemento de la cola. -->
 
 13. ¿Cuál es el resultado de `cola = deque(); cola.append(1); cola.append(2); cola.popleft(); cola.append(3)`?
     - a) [1, 3]
     - b) [2, 3]
     - c) [1, 2, 3]
     - d) [3, 2]
-    - **Respuesta Correcta: b) [2, 3]**
-      - **Justificación**: Se añade 1 y 2 a la cola, luego se elimina 1 con `popleft()`, y finalmente se añade 3.
+    <!-- - **Respuesta Correcta: b) [2, 3]**
+      - **Justificación**: Se añade 1 y 2 a la cola, luego se elimina 1 con `popleft()`, y finalmente se añade 3. -->
 
 14. ¿Qué operación devuelve el primer elemento de la cola sin eliminarlo?
     - a) front
     - b) top
     - c) peek
     - d) rear
-    - **Respuesta Correcta: a) front**
-      - **Justificación**: La operación `front` devuelve el primer elemento de la cola sin eliminarlo.
+    <!-- - **Respuesta Correcta: a) front**
+      - **Justificación**: La operación `front` devuelve el primer elemento de la cola sin eliminarlo. -->
 
 15. ¿Qué estructura de datos se utiliza comúnmente en el manejo de solicitudes en servidores?
     - a) Lista
     - b) Cola
     - c) Pila
     - d) Árbol
-    - **Respuesta Correcta: b) Cola**
-      - **Justificación**: Las colas son utilizadas para manejar solicitudes en servidores debido a su naturaleza FIFO.
+    <!-- - **Respuesta Correcta: b) Cola**
+      - **Justificación**: Las colas son utilizadas para manejar solicitudes en servidores debido a su naturaleza FIFO. -->
 
 ---
 
@@ -1716,8 +1716,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) La búsqueda binaria es más lenta que la búsqueda lineal.
     - D) La búsqueda lineal requiere dividir la lista en partes.
 
-    **Respuesta:** B
-    **Justificación:** La búsqueda binaria requiere que la lista esté ordenada para funcionar correctamente.
+    <!-- **Respuesta:** B
+    **Justificación:** La búsqueda binaria requiere que la lista esté ordenada para funcionar correctamente. -->
 
 2. **¿Cuál es la complejidad temporal de la búsqueda lineal en el peor caso?**
     - A) O(1)
@@ -1725,8 +1725,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) O(n)
     - D) O(n^2)
 
-    **Respuesta:** C
-    **Justificación:** En el peor caso, la búsqueda lineal debe revisar todos los elementos de la lista, resultando en una complejidad temporal de O(n).
+    <!-- **Respuesta:** C
+    **Justificación:** En el peor caso, la búsqueda lineal debe revisar todos los elementos de la lista, resultando en una complejidad temporal de O(n). -->
 
 3. **¿Cuál es la complejidad temporal de la búsqueda binaria en el peor caso?**
     - A) O(1)
@@ -1734,8 +1734,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) O(n)
     - D) O(n^2)
 
-    **Respuesta:** B
-    **Justificación:** En el peor caso, la búsqueda binaria tiene una complejidad temporal de O(log n) debido a la división repetida de la lista.
+    <!-- **Respuesta:** B
+    **Justificación:** En el peor caso, la búsqueda binaria tiene una complejidad temporal de O(log n) debido a la división repetida de la lista. -->
 
 4. **¿Qué devuelve una búsqueda lineal si el elemento no se encuentra en la lista?**
     - A) 0
@@ -1743,8 +1743,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) None
     - D) El último índice de la lista
 
-    **Respuesta:** B
-    **Justificación:** La implementación típica de la búsqueda lineal devuelve -1 si el elemento no se encuentra en la lista.
+    <!-- **Respuesta:** B
+    **Justificación:** La implementación típica de la búsqueda lineal devuelve -1 si el elemento no se encuentra en la lista. -->
 
 5. **¿Qué tipo de lista es necesaria para realizar una búsqueda binaria?**
     - A) Lista ordenada
@@ -1752,8 +1752,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) Lista vacía
     - D) Lista con elementos duplicados
 
-    **Respuesta:** A
-    **Justificación:** La búsqueda binaria solo puede realizarse en una lista ordenada.
+    <!-- **Respuesta:** A
+    **Justificación:** La búsqueda binaria solo puede realizarse en una lista ordenada. -->
 
 6. **¿Qué devuelve una búsqueda binaria si el elemento no se encuentra en la lista?**
     - A) 0
@@ -1779,8 +1779,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) La lista está vacía
     - D) La lista está ordenada
 
-    **Respuesta:** B
-    **Justificación:** El peor caso de la búsqueda lineal ocurre cuando el elemento está en la última posición de la lista, ya que debe revisar todos los elementos.
+    <!-- **Respuesta:** B
+    **Justificación:** El peor caso de la búsqueda lineal ocurre cuando el elemento está en la última posición de la lista, ya que debe revisar todos los elementos. -->
 
 9. **¿Qué estrategia de búsqueda es más adecuada para listas cortas?**
     - A) Búsqueda lineal
@@ -1797,8 +1797,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) Datos no numéricos
     - D) Datos complejos
 
-    **Respuesta:** B
-    **Justificación:** La búsqueda binaria es más útil en datos ordenados, ya que su eficiencia se basa en la división repetida de la lista ordenada.
+    <!-- **Respuesta:** B
+    **Justificación:** La búsqueda binaria es más útil en datos ordenados, ya que su eficiencia se basa en la división repetida de la lista ordenada. -->
 
 11. **¿Qué tipo de búsqueda es más adecuada para encontrar múltiples apariciones de un elemento en una lista desordenada?**
     - A) Búsqueda lineal
@@ -1806,8 +1806,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) Ambas
     - D) Ninguna
 
-    **Respuesta:** A
-    **Justificación:** La búsqueda lineal es adecuada para encontrar múltiples apariciones de un elemento en una lista desordenada, ya que puede revisar todos los elementos.
+    <!-- **Respuesta:** A
+    **Justificación:** La búsqueda lineal es adecuada para encontrar múltiples apariciones de un elemento en una lista desordenada, ya que puede revisar todos los elementos. -->
 
 12. **¿Qué tipo de búsqueda utilizarías si no conoces el orden de los elementos en la lista?**
     - A) Búsqueda lineal
@@ -1815,8 +1815,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) Ambas
     - D) Ninguna
 
-    **Respuesta:** A
-    **Justificación:** La búsqueda lineal se puede utilizar en listas desordenadas, ya que no requiere que los elementos estén en un orden específico.
+    <!-- **Respuesta:** A
+    **Justificación:** La búsqueda lineal se puede utilizar en listas desordenadas, ya que no requiere que los elementos estén en un orden específico. -->
 
 13. **¿Cuál es la salida de `busqueda_binaria([1, 2, 3, 4, 5], 3)`?**
     - A) 0
@@ -1824,8 +1824,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) 2
     - D) 3
 
-    **Respuesta:** C
-    **Justificación:** En la lista `[1, 2, 3, 4, 5]`, el elemento `3` se encuentra en el índice `2`.
+    <!-- **Respuesta:** C
+    **Justificación:** En la lista `[1, 2, 3, 4, 5]`, el elemento `3` se encuentra en el índice `2`. -->
 
 14. **¿Cuál es la salida de `busqueda_lineal([1, 2, 3, 4, 5], 6)`?**
     - A) 4
@@ -1833,8 +1833,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) -1
     - D) None
 
-    **Respuesta:** C
-    **Justificación:** En la lista `[1, 2, 3, 4, 5]`, el elemento `6` no se encuentra, por lo que `busqueda_lineal` devuelve `-1`.
+    <!-- **Respuesta:** C
+    **Justificación:** En la lista `[1, 2, 3, 4, 5]`, el elemento `6` no se encuentra, por lo que `busqueda_lineal` devuelve `-1`. -->
 
 15. **¿Cuál es la complejidad temporal promedio de la búsqueda binaria?**
     - A) O(1)
@@ -1842,8 +1842,8 @@ La búsqueda binaria es un algoritmo más eficiente que la búsqueda lineal, per
     - C) O(n)
     - D) O(n^2)
 
-    **Respuesta:** B
-    **Justificación:** La búsqueda binaria tiene una complejidad temporal promedio de O(log n) debido a la división repetida de la lista.
+    <!-- **Respuesta:** B
+    **Justificación:** La búsqueda binaria tiene una complejidad temporal promedio de O(log n) debido a la división repetida de la lista. -->
 
 ---
 
@@ -2564,96 +2564,96 @@ plt.show()
     - B) Regresión lineal
     - C) Máquina de soporte vectorial
     - D) Red neuronal
-    **Respuesta:** B
-    **Justificación:** La regresión lineal asume una relación lineal entre las variables independientes y la variable dependiente.
+    <!-- **Respuesta:** B
+    **Justificación:** La regresión lineal asume una relación lineal entre las variables independientes y la variable dependiente. -->
 
 2. **¿Cuál de los siguientes algoritmos se utiliza comúnmente para clasificar datos en subconjuntos más pequeños y más homogéneos?**
     - A) Regresión lineal
     - B) Árbol de decisión
     - C) Red neuronal
     - D) Máquina de soporte vectorial
-    **Respuesta:** B
-    **Justificación:** Los árboles de decisión dividen los datos en subconjuntos más pequeños y homogéneos utilizando reglas de decisión basadas en las características de los datos.
+    <!-- **Respuesta:** B
+    **Justificación:** Los árboles de decisión dividen los datos en subconjuntos más pequeños y homogéneos utilizando reglas de decisión basadas en las características de los datos. -->
 
 3. **¿Qué tipo de algoritmo de predicción se inspira en la estructura y el funcionamiento del cerebro humano?**
     - A) Árbol de decisión
     - B) Regresión lineal
     - C) Máquina de soporte vectorial
     - D) Red neuronal
-    **Respuesta:** D
-    **Justificación:** Las redes neuronales están inspiradas en la estructura y el funcionamiento del cerebro humano, consistiendo en capas de neuronas conectadas.
+    <!-- **Respuesta:** D
+    **Justificación:** Las redes neuronales están inspiradas en la estructura y el funcionamiento del cerebro humano, consistiendo en capas de neuronas conectadas. -->
 
 4. **¿Qué algoritmo de predicción busca el hiperplano óptimo que separa las clases en el espacio de características?**
     - A) Árbol de decisión
     - B) Regresión lineal
     - C) Máquina de soporte vectorial
     - D) Red neuronal
-    **Respuesta:** C
-    **Justificación:** Las máquinas de soporte vectorial (SVM) buscan el hiperplano óptimo que separa las clases en el espacio de características.
+    <!-- **Respuesta:** C
+    **Justificación:** Las máquinas de soporte vectorial (SVM) buscan el hiperplano óptimo que separa las clases en el espacio de características. -->
 
 5. **¿Cuál de los siguientes modelos es utilizado para analizar y predecir datos que varían con el tiempo?**
     - A) Regresión lineal
     - B) Árbol de decisión
     - C) Redes neuronales
     - D) Modelos de series temporales
-    **Respuesta:** D
-    **Justificación:** Los modelos de series temporales se utilizan para analizar y predecir datos que varían con el tiempo.
+    <!-- **Respuesta:** D
+    **Justificación:** Los modelos de series temporales se utilizan para analizar y predecir datos que varían con el tiempo. -->
 
 6. **¿Qué algoritmo es conocido por su capacidad de manejar datos de alta dimensionalidad de manera eficiente?**
     - A) Árbol de decisión
     - B) K-Means
     - C) SVM
     - D) Red neuronal
-    **Respuesta:** C
-    **Justificación:** Las máquinas de soporte vectorial (SVM) son conocidas por manejar datos de alta dimensionalidad de manera eficiente.
+    <!-- **Respuesta:** C
+    **Justificación:** Las máquinas de soporte vectorial (SVM) son conocidas por manejar datos de alta dimensionalidad de manera eficiente. -->
 
 7. **¿Cuál de los siguientes algoritmos es especialmente útil para problemas de clasificación y regresión?**
     - A) K-Means
     - B) SVM
     - C) Regresión lineal
     - D) Árbol de decisión
-    **Respuesta:** B
-    **Justificación:** Las máquinas de soporte vectorial (SVM) son útiles tanto para problemas de clasificación como de regresión.
+    <!-- **Respuesta:** B
+    **Justificación:** Las máquinas de soporte vectorial (SVM) son útiles tanto para problemas de clasificación como de regresión. -->
 
 8. **¿Qué algoritmo de predicción utiliza el análisis de componentes principales (PCA) para reducir la dimensionalidad de los datos?**
     - A) Regresión lineal
     - B) Árbol de decisión
     - C) K-Means
     - D) Ninguno de los anteriores
-    **Respuesta:** D
-    **Justificación:** PCA no es un algoritmo de predicción en sí, sino una técnica de reducción de dimensionalidad que puede ser utilizada antes de aplicar algoritmos de predicción.
+    <!-- **Respuesta:** D
+    **Justificación:** PCA no es un algoritmo de predicción en sí, sino una técnica de reducción de dimensionalidad que puede ser utilizada antes de aplicar algoritmos de predicción. -->
 
 9. **¿Qué algoritmo de predicción se utiliza en el modelo Prophet para análisis de series temporales?**
     - A) Regresión lineal
     - B) Árbol de decisión
     - C) Red neuronal
     - D) Modelos aditivos
-    **Respuesta:** D
-    **Justificación:** Prophet utiliza modelos aditivos para el análisis de series temporales.
+    <!-- **Respuesta:** D
+    **Justificación:** Prophet utiliza modelos aditivos para el análisis de series temporales. -->
 
 10. **¿Qué técnica se utiliza en el algoritmo de árboles de decisión para seleccionar la mejor característica en cada nodo?**
     - A) Análisis de componentes principales
     - B) Criterio de entropía o Gini
     - C) Reducción de dimensionalidad
     - D) Hiperplano de separación
-    **Respuesta:** B
-    **Justificación:** Los árboles de decisión utilizan el criterio de entropía o Gini para seleccionar la mejor característica en cada nodo.
+    <!-- **Respuesta:** B
+    **Justificación:** Los árboles de decisión utilizan el criterio de entropía o Gini para seleccionar la mejor característica en cada nodo. -->
 
 11. **¿Cuál de los siguientes es un beneficio clave de utilizar redes neuronales para predicción?**
     - A) Simplicidad del modelo
     - B) Capacidad de manejar relaciones no lineales complejas
     - C) Bajo costo computacional
     - D) Transparencia del modelo
-    **Respuesta:** B
-    **Justificación:** Las redes neuronales son capaces de manejar relaciones no lineales complejas, lo que las hace muy poderosas para predicciones sofisticadas.
+    <!-- **Respuesta:** B
+    **Justificación:** Las redes neuronales son capaces de manejar relaciones no lineales complejas, lo que las hace muy poderosas para predicciones sofisticadas. -->
 
 12. **¿Qué algoritmo de predicción se utiliza comúnmente en problemas de clasificación de imágenes?**
     - A) K-Means
     - B) SVM
     - C) Regresión lineal
     - D) Árbol de decisión
-    **Respuesta:** B
-    **Justificación:** Las máquinas de soporte vectorial (SVM) son comúnmente utilizadas en problemas de clasificación de imágenes debido a su capacidad de manejar alta dimensionalidad y su eficacia en la separación de clases.
+    <!-- **Respuesta:** B
+    **Justificación:** Las máquinas de soporte vectorial (SVM) son comúnmente utilizadas en problemas de clasificación de imágenes debido a su capacidad de manejar alta dimensionalidad y su eficacia en la separación de clases. -->
 
 13. **¿Qué técnica se utiliza en el modelo ARIMA para predecir series temporales?**
     - A) Análisis de componentes principales
@@ -2662,24 +2662,24 @@ plt.show()
     - D) Máquinas de soporte vectorial
    
 
- **Respuesta:** B
-    **Justificación:** ARIMA utiliza integración y diferenciación para modelar y predecir series temporales, capturando tendencias y estacionalidades.
+ <!-- **Respuesta:** B
+    **Justificación:** ARIMA utiliza integración y diferenciación para modelar y predecir series temporales, capturando tendencias y estacionalidades. -->
 
 14. **¿Cuál de los siguientes algoritmos es más adecuado para la predicción de valores continuos en problemas de regresión?**
     - A) Árbol de decisión
     - B) Regresión lineal
     - C) K-Means
     - D) Red neuronal
-    **Respuesta:** B
-    **Justificación:** La regresión lineal es específicamente adecuada para la predicción de valores continuos en problemas de regresión.
+    <!-- **Respuesta:** B
+    **Justificación:** La regresión lineal es específicamente adecuada para la predicción de valores continuos en problemas de regresión. -->
 
 15. **¿Qué técnica de aprendizaje automático se utiliza para encontrar patrones ocultos en datos no etiquetados?**
     - A) Aprendizaje supervisado
     - B) Aprendizaje no supervisado
     - C) Algoritmo genético
     - D) Programación lineal
-    **Respuesta:** B
-    **Justificación:** El aprendizaje no supervisado se utiliza para encontrar patrones ocultos y estructuras en datos no etiquetados, como en el clustering y la reducción de dimensionalidad.
+    <!-- **Respuesta:** B
+    **Justificación:** El aprendizaje no supervisado se utiliza para encontrar patrones ocultos y estructuras en datos no etiquetados, como en el clustering y la reducción de dimensionalidad. -->
 
 ---
 
@@ -3684,8 +3684,8 @@ Este ejemplo muestra cómo el algoritmo de enfriamiento simulado puede resolver 
     ```
 
 ---
-<!-- 
-### Examen del Capítulo
+
+ ### Examen del Capítulo
 
 1. **¿Qué es la programación lineal?**
    - a) Un algoritmo de búsqueda
@@ -3693,8 +3693,8 @@ Este ejemplo muestra cómo el algoritmo de enfriamiento simulado puede resolver 
    - c) Un método de clasificación
    - d) Un tipo de estructura de datos
 
-   - **Respuesta correcta:** b) Una técnica matemática para optimizar problemas con restricciones lineales
-   - **Justificación:** La programación lineal se utiliza para encontrar el mejor resultado en un modelo matemático con restricciones lineales.
+   <!-- - **Respuesta correcta:** b) Una técnica matemática para optimizar problemas con restricciones lineales
+   - **Justificación:** La programación lineal se utiliza para encontrar el mejor resultado en un modelo matemático con restricciones lineales. -->
 
 2. **¿Cuál es la función principal de los algoritmos genéticos?**
    - a) Ordenar datos
@@ -3702,8 +3702,8 @@ Este ejemplo muestra cómo el algoritmo de enfriamiento simulado puede resolver 
    - c) Clasificar datos
    - d) Buscar elementos en listas
 
-   - **Respuesta correcta:** b) Encontrar soluciones óptimas mediante la simulación de la evolución natural
-   - **Justificación:** Los algoritmos genéticos utilizan mecanismos inspirados en la evolución para buscar soluciones óptimas.
+   <!-- - **Respuesta correcta:** b) Encontrar soluciones óptimas mediante la simulación de la evolución natural
+   - **Justificación:** Los algoritmos genéticos utilizan mecanismos inspirados en la evolución para buscar soluciones óptimas. -->
 
 3. **¿Qué es la optimización por colonia de hormigas?**
    - a) Un método de clasificación
@@ -3711,8 +3711,8 @@ Este ejemplo muestra cómo el algoritmo de enfriamiento simulado puede resolver 
    - c) Una técnica de regresión
    - d) Un tipo de búsqueda lineal
 
-   - **Respuesta correcta:** b) Un algoritmo inspirado en el comportamiento de las hormigas para encontrar rutas óptimas
-   - **Justificación:** La optimización por colonia de hormigas se basa en cómo las hormigas encuentran rutas óptimas depositando feromonas.
+   <!-- - **Respuesta correcta:** b) Un algoritmo inspirado en el comportamiento de las hormigas para encontrar rutas óptimas
+   - **Justificación:** La optimización por colonia de hormigas se basa en cómo las hormigas encuentran rutas óptimas depositando feromonas. -->
 
 4. **¿Qué es el enfriamiento simulado?**
    - a) Un algoritmo de ordenamiento
@@ -3720,8 +3720,8 @@ Este ejemplo muestra cómo el algoritmo de enfriamiento simulado puede resolver 
    - c) Una técnica de búsqueda binaria
    - d) Un tipo de estructura de datos
 
-   - **Respuesta correcta:** b) Un método de optimización basado en el proceso de recocido en metalurgia
-   - **Justificación:** El enfriamiento simulado se inspira en el proceso de recocido para encontrar soluciones óptimas en grandes espacios de búsqueda.
+   <!-- - **Respuesta correcta:** b) Un método de optimización basado en el proceso de recocido en metalurgia
+   - **Justificación:** El enfriamiento simulado se inspira en el proceso de recocido para encontrar soluciones óptimas en grandes espacios de búsqueda. -->
 
 5. **¿Cuál es la principal ventaja de los algoritmos genéticos?**
    - a) Son rápidos para ordenar datos
@@ -3729,8 +3729,8 @@ Este ejemplo muestra cómo el algoritmo de enfriamiento simulado puede resolver 
    - c) Son fáciles de implementar
    - d) Funcionan mejor con datos lineales
 
-   - **Respuesta correcta:** b) Pueden encontrar soluciones en espacios de búsqueda grandes y complejos
-   - **Justificación:** Los algoritmos genéticos son ideales para problemas con grandes espacios de búsqueda y múltiples variables.
+   <!-- - **Respuesta correcta:** b) Pueden encontrar soluciones en espacios de búsqueda grandes y complejos
+   - **Justificación:** Los algoritmos genéticos son ideales para problemas con grandes espacios de búsqueda y múltiples variables. -->
 
 6. **¿Cuál de los siguientes no es un componente de los algoritmos genéticos?**
    - a) Selección
@@ -3738,8 +3738,8 @@ Este ejemplo muestra cómo el algoritmo de enfriamiento simulado puede resolver 
    - c) Mutación
    - d) Ordenamiento
 
-   - **Respuesta correcta:** d) Ordenamiento
-   - **Justificación:** Los componentes de los algoritmos genéticos incluyen selección, cruce y mutación, pero no ordenamiento.
+   <!-- - **Respuesta correcta:** d) Ordenamiento
+   - **Justificación:** Los componentes de los algoritmos genéticos incluyen selección, cruce y mutación, pero no ordenamiento. -->
 
 7. **En la programación lineal, ¿qué representa una restricción?**
    - a) La función objetivo
@@ -3747,17 +3747,17 @@ Este ejemplo muestra cómo el algoritmo de enfriamiento simulado puede resolver 
    - c) Los datos de entrada
    - d) La salida del algoritmo
 
-   - **Respuesta correcta:** b) Los límites impuestos al problema
+   <!-- - **Respuesta correcta:** b) Los límites impuestos al problema
    - **Justificación:** Las restricciones en programación lineal representan los límites dentro de los cuales se debe encontrar la solución óptima.
-
+ -->
 8. **¿Cómo se define la función objetivo en un problema de programación lineal?**
    - a) Como la suma de todas las restricciones
    - b) Como la función que se desea maximizar o minimizar
    - c) Como el conjunto de todas las variables
    - d) Como los datos de entrada
 
-   - **Respuesta correcta:** b) Como la función que se desea maximizar o minimizar
-   - **Justificación:** La función objetivo en programación lineal es la función que se quiere maximizar o minimizar sujeta a restricciones.
+   <!-- - **Respuesta correcta:** b) Como la función que se desea maximizar o minimizar
+   - **Justificación:** La función objetivo en programación lineal es la función que se quiere maximizar o minimizar sujeta a restricciones. -->
 
 9. **¿Qué es un algoritmo de colonia de hormigas (ACO)?**
    - a) Un algoritmo de ordenamiento rápido
@@ -3765,8 +3765,8 @@ Este ejemplo muestra cómo el algoritmo de enfriamiento simulado puede resolver 
    - c) Un tipo de regresión lineal
    - d) Un algoritmo de búsqueda binaria
 
-   - **Respuesta correcta:** b) Un método de optimización basado en el comportamiento de las hormigas
-   - **Justificación:** El ACO utiliza el comportamiento de las hormigas en la naturaleza para resolver problemas de optimización.
+   <!-- - **Respuesta correcta:** b) Un método de optimización basado en el comportamiento de las hormigas
+   - **Justificación:** El ACO utiliza el comportamiento de las hormigas en la naturaleza para resolver problemas de optimización. -->
 
 10. **¿Cuál es la función de las feromonas en los algoritmos de colonia de hormigas?**
     - a) Ayudan a las hormigas a encontrar comida
@@ -3774,8 +3774,8 @@ Este ejemplo muestra cómo el algoritmo de enfriamiento simulado puede resolver 
     - c) Atraen a más hormigas a una colonia
     - d) Facilitan la comunicación entre las hormigas
 
-    - **Respuesta correcta:** b) Guían a las hormigas para encontrar la ruta óptima
-    - **Justificación:** Las feromonas depositadas por las hormigas ayudan a guiar a otras hormigas hacia rutas óptimas en los algoritmos de colonia de hormigas.
+    <!-- - **Respuesta correcta:** b) Guían a las hormigas para encontrar la ruta óptima
+    - **Justificación:** Las feromonas depositadas por las hormigas ayudan a guiar a otras hormigas hacia rutas óptimas en los algoritmos de colonia de hormigas. -->
 
 11. **¿Qué es un enfriamiento simulado (Simulated Annealing)?**
     - a) Un algoritmo de ordenamiento
@@ -3783,8 +3783,8 @@ Este ejemplo muestra cómo el algoritmo de enfriamiento simulado puede resolver 
     - c) Una técnica de búsqueda binaria
     - d) Un tipo de estructura de datos
 
-    - **Respuesta correcta:** b) Un método de optimización que simula el proceso de recocido en metalurgia
-    - **Justificación:** El enfriamiento simulado es una técnica de optimización basada en el proceso de recocido.
+    <!-- - **Respuesta correcta:** b) Un método de optimización que simula el proceso de recocido en metalurgia
+    - **Justificación:** El enfriamiento simulado es una técnica de optimización basada en el proceso de recocido. -->
 
 12. **¿Cuál es la principal aplicación de la programación lineal?**
     - a) Resolver problemas de búsqueda
@@ -3792,8 +3792,8 @@ Este ejemplo muestra cómo el algoritmo de enfriamiento simulado puede resolver 
     - c) Ordenar datos
     - d) Clasificar datos
 
-    - **Respuesta correcta:** b) Optimizar problemas con restricciones lineales
-    - **Justificación:** La programación lineal se utiliza para encontrar soluciones óptimas a problemas con restricciones lineales. -->
+    <!-- - **Respuesta correcta:** b) Optimizar problemas con restricciones lineales
+    - **Justificación:** La programación lineal se utiliza para encontrar soluciones óptimas a problemas con restricciones lineales. -->  -->
 
 ### Cierre del Capítulo
 
