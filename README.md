@@ -64,7 +64,6 @@ Tanto los algoritmos como las estructuras de datos son fundamentales en informá
 # 
 # Estructura de datos primitivas<a name="primitivas"></a>
 
-Claro, aquí tienes una explicación sobre estructuras de datos y datos primitivos, diseñada para ser clara y adecuada para una clase de estructura de datos.
 
 ---
 
