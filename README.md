@@ -297,8 +297,8 @@ Espero que esta explicación adicional sobre decisiones e iteraciones sea útil 
 - C) if-else
 - D) range
 
-**Respuesta correcta: C) if-else**  
- *Descripción: La estructura condicional if-else permite ejecutar un bloque de código si se cumple una condición y otro bloque si no se cumple.*
+<!-- **Respuesta correcta: C) if-else**  
+ *Descripción: La estructura condicional if-else permite ejecutar un bloque de código si se cumple una condición y otro bloque si no se cumple.* -->
 
 #### Pregunta 2
 ¿Cuál es la función principal de un bucle while?
@@ -307,8 +307,8 @@ Espero que esta explicación adicional sobre decisiones e iteraciones sea útil 
 - C) Seleccionar entre varias alternativas posibles basadas en el valor de una variable.
 - D) Iterar sobre una secuencia.
 
-**Respuesta correcta: B) Ejecutar un bloque de código mientras una condición sea verdadera.**  
-*Descripción: El bucle while repite un bloque de código mientras se cumpla una condición.*
+<!-- **Respuesta correcta: B) Ejecutar un bloque de código mientras una condición sea verdadera.**  
+*Descripción: El bucle while repite un bloque de código mientras se cumpla una condición.* -->
 
 #### Pregunta 3
 En el siguiente código, ¿cuál será la salida si la variable edad es 16?
@@ -324,9 +324,9 @@ else:
 - C) Error de sintaxis
 - D) No imprime nada
 
-**Respuesta correcta: B) Eres menor de edad**  
+<!-- **Respuesta correcta: B) Eres menor de edad**  
 *Descripción: Como la variable edad es 16, no se cumple la condición edad >= 18, por lo que se ejecuta el bloque de código dentro de else.*
-
+ -->
 #### Pregunta 4
 ¿Cuál de las siguientes opciones NO es una estructura de control en programación?
 - A) if-else
@@ -334,8 +334,8 @@ else:
 - C) while
 - D) def
 
-**Respuesta correcta: D) def**  
-*Descripción: def se utiliza para definir funciones en Python, no es una estructura de control.*
+<!-- **Respuesta correcta: D) def**  
+*Descripción: def se utiliza para definir funciones en Python, no es una estructura de control.* -->
 
 #### Pregunta 5
 ¿Qué salida genera el siguiente código?
@@ -349,9 +349,9 @@ while contador < 3:
 - B) Contador: 1, Contador: 2, Contador: 3
 - C) Contador: 0, Contador: 1, Contador: 2, Contador: 3
 - D) Contador: 1, Contador: 2, Contador: 3, Contador: 4
-
+<!-- 
 **Respuesta correcta: A) Contador: 0, Contador: 1, Contador: 2**  
-*Descripción: El bucle while se ejecuta mientras contador sea menor que 3, incrementando el contador en cada iteración hasta que alcanza el valor 3.*
+*Descripción: El bucle while se ejecuta mientras contador sea menor que 3, incrementando el contador en cada iteración hasta que alcanza el valor 3.* -->
 
 #### Pregunta 6
 En la estructura switch-case simulada con un diccionario en Python, ¿qué se imprime al ejecutar switch_case("Sábado")?
@@ -375,8 +375,8 @@ print(switch_case("Sábado"))
 - C) Día de descanso
 - D) Día no válido
 
-**Respuesta correcta: C) Día de descanso**  
-*Descripción: El valor correspondiente a la clave "Sábado" en el diccionario es "Día de descanso".*
+<!-- **Respuesta correcta: C) Día de descanso**  
+*Descripción: El valor correspondiente a la clave "Sábado" en el diccionario es "Día de descanso".* -->
 
 #### Pregunta 7
 ¿Qué estructura de control se utiliza para iterar sobre una secuencia?
@@ -385,8 +385,8 @@ print(switch_case("Sábado"))
 - C) while
 - D) for
 
-**Respuesta correcta: D) for**  
-*Descripción: El bucle for se usa para iterar sobre una secuencia (como una lista, una tupla, un diccionario, un conjunto o una cadena).*
+<!-- **Respuesta correcta: D) for**  
+*Descripción: El bucle for se usa para iterar sobre una secuencia (como una lista, una tupla, un diccionario, un conjunto o una cadena).* -->
 
 #### Pregunta 8
 ¿Cuál será la salida del siguiente código?
@@ -400,8 +400,8 @@ for numero in numeros:
 - C) Número: 1, Número: 3, Número: 5
 - D) Número: 0, Número: 2, Número: 4
 
-**Respuesta correcta: A) Número: 1, Número: 2, Número: 3, Número: 4, Número: 5**  
-*Descripción: El bucle for itera sobre cada elemento de la lista numeros, imprimiendo cada uno en la salida.*
+<!-- **Respuesta correcta: A) Número: 1, Número: 2, Número: 3, Número: 4, Número: 5**  
+*Descripción: El bucle for itera sobre cada elemento de la lista numeros, imprimiendo cada uno en la salida.* -->
 
 #### Pregunta 9
 ¿Cuál es la salida del siguiente código usando range?
@@ -414,8 +414,8 @@ for i in range(3):
 - C) Iteración: 1, Iteración: 2
 - D) Iteración: 0, Iteración: 1, Iteración: 2, Iteración: 3
 
-**Respuesta correcta: B) Iteración: 0, Iteración: 1, Iteración: 2**  
-*Descripción: El rango de 3 en la función range genera los números 0, 1 y 2. El bucle for itera sobre estos valores e imprime cada uno en la salida.*
+<!-- **Respuesta correcta: B) Iteración: 0, Iteración: 1, Iteración: 2**  
+*Descripción: El rango de 3 en la función range genera los números 0, 1 y 2. El bucle for itera sobre estos valores e imprime cada uno en la salida.* -->
 
 #### Pregunta 10
 ¿Qué estructura de control permite seleccionar entre varias alternativas posibles basadas en el valor de una variable?
@@ -423,10 +423,10 @@ for i in range(3):
 - B) while
 - C) for
 - D) switch-case
-
+<!-- 
 **Respuesta correcta: D) switch-case**  
 *Descripción: La estructura switch-case permite seleccionar entre varias alternativas posibles basadas en el valor de una variable.*
-
+ -->
 
 # 
 
@@ -594,7 +594,7 @@ d) numeros[0]
 
  Respuesta correcta: b) numeros[2]
 
-Justificación: Los arreglos en Python son indexados desde cero, por lo tanto, el tercer elemento está en la posición 2. 
+<!-- Justificación: Los arreglos en Python son indexados desde cero, por lo tanto, el tercer elemento está en la posición 2.  -->
 
 2. ¿Qué operación se está realizando con el siguiente código? numeros[1] = 25
 
@@ -606,9 +606,9 @@ c) Recorrido del arreglo
 
 d) Inserción de elementos
 
- Respuesta correcta: b) Modificación de elementos
+ <!-- Respuesta correcta: b) Modificación de elementos
 
-Justificación: Se está asignando un nuevo valor (25) al segundo elemento del arreglo. 
+Justificación: Se está asignando un nuevo valor (25) al segundo elemento del arreglo.  -->
 
 3. ¿Qué valor imprimirá el siguiente código?
 
@@ -624,9 +624,9 @@ c) 30
 
 d) 40
 
- Respuesta correcta: a) 10
+ <!-- Respuesta correcta: a) 10
 
-Justificación: Se está imprimiendo el primer elemento del arreglo, que es 10. 
+Justificación: Se está imprimiendo el primer elemento del arreglo, que es 10.  -->
 
 4. ¿Cómo recorres todos los elementos de un arreglo unidimensional en Python?
 
@@ -638,9 +638,9 @@ c) while i < len(numeros): print(numeros[i])
 
 d) Todas las anteriores
 
- Respuesta correcta: d) Todas las anteriores
+ <!-- Respuesta correcta: d) Todas las anteriores
 
-Justificación: Todas las opciones recorren correctamente los elementos de un arreglo en Python. 
+Justificación: Todas las opciones recorren correctamente los elementos de un arreglo en Python.  -->
 
 5. ¿Qué operación se realiza con el siguiente código?
 
@@ -656,9 +656,9 @@ c) Búsqueda de elementos
 
 d) Inserción de elementos
 
- Respuesta correcta: c) Búsqueda de elementos
+ <!-- Respuesta correcta: c) Búsqueda de elementos
 
-Justificación: El código verifica si el número 30 está presente en el arreglo. 
+Justificación: El código verifica si el número 30 está presente en el arreglo.  -->
 
 6. ¿Qué hace el método append en Python?
 
@@ -670,9 +670,9 @@ c) Elimina un elemento
 
 d) Recorre el arreglo
 
- Respuesta correcta: b) Inserta un elemento
+ <!-- Respuesta correcta: b) Inserta un elemento
 
-Justificación: append añade un nuevo elemento al final del arreglo. 
+Justificación: append añade un nuevo elemento al final del arreglo.  -->
 
 7. ¿Cómo accedes al elemento de la segunda fila y tercera columna en un arreglo bidimensional?
 
@@ -684,9 +684,9 @@ c) matriz[0][2]
 
 d) matriz[1][3]
 
- Respuesta correcta: b) matriz[1][2]
+ <!-- Respuesta correcta: b) matriz[1][2]
 
-Justificación: Los índices son cero-basados, así que la segunda fila está en el índice 1 y la tercera columna en el índice 2.
+Justificación: Los índices son cero-basados, así que la segunda fila está en el índice 1 y la tercera columna en el índice 2. -->
 
 8. ¿Qué valor se obtiene con matriz[0][1] si matriz es el siguiente arreglo?
 
@@ -705,9 +705,9 @@ c) 3
 
 d) 4
 
-Respuesta correcta: b) 2
+<!-- Respuesta correcta: b) 2
 
-Justificación: matriz[0][1] accede al elemento en la primera fila, segunda columna, que es 2. 
+Justificación: matriz[0][1] accede al elemento en la primera fila, segunda columna, que es 2.  -->
 
 9. ¿Qué hace el siguiente código?
 
@@ -722,9 +722,9 @@ c) Elimina un elemento
 
 d) Inserta un elemento
 
- Respuesta correcta: b) Modifica un elemento
+ <!-- Respuesta correcta: b) Modifica un elemento
 
-Justificación: Cambia el valor del elemento en la primera fila y segunda columna a 20. 
+Justificación: Cambia el valor del elemento en la primera fila y segunda columna a 20.  -->
 
 10. ¿Qué imprimirá el siguiente código?
 
@@ -743,7 +743,7 @@ d) Ninguno de los anteriores
 
  Respuesta correcta: c) Todos los elementos de la matriz
 
-Justificación: El bucle anidado recorre e imprime todos los elementos de todas las filas en la matriz. 
+<!-- Justificación: El bucle anidado recorre e imprime todos los elementos de todas las filas en la matriz.  -->
 
 11. ¿Cuál es el resultado de matriz.append([10, 11, 12]) si matriz es?
 
@@ -762,9 +762,9 @@ c) Modifica una fila
 
 d) Elimina una fila
 
- Respuesta correcta: b) Inserta una fila
+ <!-- Respuesta correcta: b) Inserta una fila
 
-Justificación: append agrega una nueva fila al final de la matriz. 
+Justificación: append agrega una nueva fila al final de la matriz.  -->
 
 12. ¿Qué valor se obtiene con arreglo_3d[1][2][0] si arreglo_3d es?
 
@@ -790,9 +790,9 @@ c) 16
 
 d) 18
 
- Respuesta correcta: c) 16
+ <!-- Respuesta correcta: c) 16
 
-Justificación: arreglo_3d[1][2][0] accede al primer elemento de la tercera fila en la segunda matriz. 
+Justificación: arreglo_3d[1][2][0] accede al primer elemento de la tercera fila en la segunda matriz.  -->
 
 13. ¿Qué operación se realiza con el siguiente código?
 
@@ -807,9 +807,9 @@ c) Búsqueda de elementos
 
 d) Inserción de elementos
 
- Respuesta correcta: b) Modificación de elementos
+ <!-- Respuesta correcta: b) Modificación de elementos
 
-Justificación: El código cambia el valor del elemento en la posición [0][1][2] a 60. 
+Justificación: El código cambia el valor del elemento en la posición [0][1][2] a 60.  -->
 
 14. ¿Cuál es la estructura correcta para recorrer todos los elementos en un arreglo tridimensional?
 
@@ -820,10 +820,10 @@ b) Dos bucles for anidados
 c) Tres bucles for anidados
 
 d) Cuatro bucles for anidados
-
+<!-- 
  Respuesta correcta: c) Tres bucles for anidados
 
-Justificación: Un arreglo tridimensional requiere tres bucles anidados para recorrer todos sus elementos. 
+Justificación: Un arreglo tridimensional requiere tres bucles anidados para recorrer todos sus elementos.  -->
 
 15. ¿Qué se imprime con el siguiente código?
 
@@ -841,9 +841,9 @@ c) Todos los elementos del arreglo tridimensional
 
 d) Ninguno de los anteriores
 
- Respuesta correcta: c) Todos los elementos del arreglo tridimensional
+ <!-- Respuesta correcta: c) Todos los elementos del arreglo tridimensional
 
-Justificación: El bucle anidado recorre e imprime todos los elementos de cada matriz y fila en el arreglo tridimensional.
+Justificación: El bucle anidado recorre e imprime todos los elementos de cada matriz y fila en el arreglo tridimensional. -->
 
 
 
@@ -1287,16 +1287,16 @@ def siguiente_cliente():
    - c) enqueue
    - d) insert
 
-   - **Respuesta Correcta: c) enqueue**
-     - **Justificación**: La operación `enqueue` añade un elemento al final de la cola.
+   <!-- - **Respuesta Correcta: c) enqueue**
+     - **Justificación**: La operación `enqueue` añade un elemento al final de la cola. -->
 
 2. ¿Qué estructura de datos sigue el principio FIFO?
    - a) Lista
    - b) Cola
    - c) Pila
    - d) Árbol
-   - **Respuesta Correcta: b) Cola**
-     - **Justificación**: Una cola (queue) sigue el principio FIFO (First In, First Out).
+   <!-- - **Respuesta Correcta: b) Cola**
+     - **Justificación**: Una cola (queue) sigue el principio FIFO (First In, First Out). -->
 
 3. ¿Qué operación de cola se utiliza para eliminar el primer elemento?
    - a) dequeue
